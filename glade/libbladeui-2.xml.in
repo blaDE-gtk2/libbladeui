@@ -1,4 +1,4 @@
-<glade-catalog name="libbladeui-2" supports="gtkbuilder" library="xfce4uiglade2" version="4.12.0" book="xfce4" domain="glade3" depends="gtk+">
+<glade-catalog name="libbladeui-2" supports="gtkbuilder" library="bladeuiglade2" version="4.12.0" book="xfce4" domain="glade3" depends="gtk+">
   <glade-widget-classes>
     <glade-widget-class name="XfceTitledDialog" generic-name="xfce-titled-dialog" _title="Titled Dialog">
       <post-create-function>glade_xfce_titled_dialog_post_create</post-create-function>

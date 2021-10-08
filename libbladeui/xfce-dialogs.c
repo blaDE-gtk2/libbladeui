@@ -576,7 +576,7 @@ xfce_message_dialog_new_valist (GtkWindow   *parent,
 
   gxml = gtk_builder_new_from_resource ("/org/blade/libbladeui/libbladeui-dialog-ui.ui");
 
-  dialog = GTK_WIDGET(gtk_builder_get_object(gxml, "xfce4ui-dialog"));
+  dialog = GTK_WIDGET(gtk_builder_get_object(gxml, "bladeui-dialog"));
   label_box = GTK_WIDGET(gtk_builder_get_object(gxml, "label-box"));
   dialog_image = GTK_WIDGET(gtk_builder_get_object(gxml, "icon_stock_id"));
   gtk_window_set_default_size (GTK_WINDOW (dialog), 500, -1);

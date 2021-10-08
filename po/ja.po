@@ -6,7 +6,7 @@
 # Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008,2016-2017,2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Libxfce4ui\n"
+"Project-Id-Version: Libbladeui\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-06-06 09:45+0000\n"

@@ -9,7 +9,7 @@
 # Ivica  Kolić <ikoli@yahoo.com>, 2013-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Libxfce4ui\n"
+"Project-Id-Version: Libbladeui\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-05-17 06:14+0000\n"
@@ -697,7 +697,7 @@ msgid ""
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Libxfce4ui, libbladeutil i blxo paketi distribuiraju se pod uvjetima GNU Library General Public licence objavljene od strane Free Software Foundation; verzija 2 licence ili (po vašem izboru) neka od kasnijih verzija."
+msgstr "Libbladeui, libbladeutil i blxo paketi distribuiraju se pod uvjetima GNU Library General Public licence objavljene od strane Free Software Foundation; verzija 2 licence ili (po vašem izboru) neka od kasnijih verzija."
 
 #: ../xfce4-about/main.c:301
 msgid ""

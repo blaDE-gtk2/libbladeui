@@ -13,7 +13,7 @@
 # Volkan Gezer <volkangezer@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: Libxfce4ui\n"
+"Project-Id-Version: Libbladeui\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-05-23 04:42+0000\n"
@@ -701,7 +701,7 @@ msgid ""
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Libxfce4ui, libbladeutil ve blxo paketleri, Özgür Yazılım Vakfı tarafından yayınlanan GNU Kütüphanesi Genel Kamu Lisansı koşulları altında dağıtılmaktadır; Lisansın 2. sürümü veya (isteğe bağlı olarak) daha sonraki bir sürüm."
+msgstr "Libbladeui, libbladeutil ve blxo paketleri, Özgür Yazılım Vakfı tarafından yayınlanan GNU Kütüphanesi Genel Kamu Lisansı koşulları altında dağıtılmaktadır; Lisansın 2. sürümü veya (isteğe bağlı olarak) daha sonraki bir sürüm."
 
 #: ../xfce4-about/main.c:301
 msgid ""

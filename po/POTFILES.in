@@ -1,5 +1,5 @@
 #
-# Libxfce4ui sources
+# Libbladeui sources
 #
 libbladeui/libbladeui-config.c
 libbladeui/xfce-dialogs.c

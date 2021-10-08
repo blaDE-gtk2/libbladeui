@@ -24,7 +24,7 @@
  * @stability: Stable
  * @include: libbladeui/libbladeui.h
  *
- * Variables and functions to check the Libxfce4ui version.
+ * Variables and functions to check the Libbladeui version.
  **/
 
 #ifdef HAVE_CONFIG_H
@@ -76,7 +76,7 @@ const guint libbladeui_micro_version = LIBBLADEUI_MICRO_VERSION;
  * compiled against.
  *
  * <example>
- * <title>Checking the runtime version of the Libxfce4ui library</title>
+ * <title>Checking the runtime version of the Libbladeui library</title>
  * <programlisting>
  * const gchar *mismatch;
  * mismatch = libbladeui_check_version (LIBBLADEUI_MAJOR_VERSION,
@@ -98,13 +98,13 @@ libbladeui_check_version (guint required_major,
                           guint required_micro)
 {
   if (required_major > LIBBLADEUI_MAJOR_VERSION)
-    return "Libxfce4ui version too old (major mismatch)";
+    return "Libbladeui version too old (major mismatch)";
   if (required_major < LIBBLADEUI_MAJOR_VERSION)
-    return "Libxfce4ui version too new (major mismatch)";
+    return "Libbladeui version too new (major mismatch)";
   if (required_minor > LIBBLADEUI_MINOR_VERSION)
-    return "Libxfce4ui version too old (minor mismatch)";
+    return "Libbladeui version too old (minor mismatch)";
   if (required_minor == LIBBLADEUI_MINOR_VERSION && required_micro > LIBBLADEUI_MICRO_VERSION)
-    return "Libxfce4ui version too old (micro mismatch)";
+    return "Libbladeui version too old (micro mismatch)";
   return NULL;
 }
 

@@ -506,7 +506,7 @@ xfce_spawn_on_screen_with_child_watch (GdkScreen    *screen,
  * @error             : (out) (allow-none) (transfer full): return location for errors or %NULL.
  *
  * Like gdk_spawn_on_screen(), but also supports startup notification
- * (if Libxfce4ui was built with startup notification support).
+ * (if Libbladeui was built with startup notification support).
  *
  * Return value: %TRUE on success, %FALSE if @error is set.
  **/

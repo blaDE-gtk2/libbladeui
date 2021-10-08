@@ -9,7 +9,7 @@
 # Michael Findlay <translate@cobber-linux.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Libxfce4ui\n"
+"Project-Id-Version: Libbladeui\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-05-29 10:44+0000\n"
