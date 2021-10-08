@@ -2,7 +2,7 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 
 SUBDIRS = \
-	libxfce4ui \
+	libbladeui \
 	libxfce4kbd-private \
 	xfce4-about \
 	glade \

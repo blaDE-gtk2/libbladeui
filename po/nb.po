@@ -15,110 +15,110 @@ msgstr ""
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-07-24 05:58+0000\n"
 "Last-Translator: Kjell Cato Heskjestad <cato@heskjestad.xyz>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/xfce/libxfce4ui/language/nb/)\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/xfce/libbladeui/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:110
+#: ../libbladeui/xfce-dialogs.c:110
 msgid "Failed to open web browser for online documentation"
 msgstr "Klarte ikke å åpne nettleseren for dokumentasjon på Internett"
 
-#: ../libxfce4ui/xfce-dialogs.c:265
+#: ../libbladeui/xfce-dialogs.c:265
 #, c-format
 msgid "Do you want to read the %s manual online?"
 msgstr "Ønsker du å lese bruksanvisningen %s på nettet?"
 
-#: ../libxfce4ui/xfce-dialogs.c:267
+#: ../libbladeui/xfce-dialogs.c:267
 msgid "Do you want to read the manual online?"
 msgstr "Ønsker du å lese bruksanvisningen på nettet?"
 
-#: ../libxfce4ui/xfce-dialogs.c:270
+#: ../libbladeui/xfce-dialogs.c:270
 msgid "Online Documentation"
 msgstr "Dokumentasjon på Internett"
 
-#: ../libxfce4ui/xfce-dialogs.c:277
+#: ../libbladeui/xfce-dialogs.c:277
 msgid ""
 "You will be redirected to the documentation website where the help pages are"
 " maintained and translated."
 msgstr "Du vil bli omdirigert til dokumentasjonsnettstedet der hjelpesidene blir vedlikeholdt og oversatt."
 
-#: ../libxfce4ui/xfce-dialogs.c:291
+#: ../libbladeui/xfce-dialogs.c:291
 msgid "_Read Online"
 msgstr "_Les på Internett"
 
-#: ../libxfce4ui/xfce-dialogs.c:300
+#: ../libbladeui/xfce-dialogs.c:300
 msgid "_Always go directly to the online documentation"
 msgstr "_Gå alltid direkte til dokumentasjonen på Internett."
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Information"
 msgstr "Informasjon"
 
-#: ../libxfce4ui/xfce-dialogs.c:358 ../libxfce4ui/xfce-dialogs.c:401
-#: ../libxfce4ui/xfce-dialogs.c:445
+#: ../libbladeui/xfce-dialogs.c:358 ../libbladeui/xfce-dialogs.c:401
+#: ../libbladeui/xfce-dialogs.c:445
 msgid "Close"
 msgstr "Lukk"
 
-#: ../libxfce4ui/xfce-dialogs.c:391
+#: ../libbladeui/xfce-dialogs.c:391
 msgid "Warning"
 msgstr "Advarsel"
 
-#: ../libxfce4ui/xfce-dialogs.c:435
+#: ../libbladeui/xfce-dialogs.c:435
 msgid "Error"
 msgstr "Feil"
 
-#: ../libxfce4ui/xfce-dialogs.c:494
+#: ../libbladeui/xfce-dialogs.c:494
 msgid "No"
 msgstr "Nei"
 
-#: ../libxfce4ui/xfce-dialogs.c:496
+#: ../libbladeui/xfce-dialogs.c:496
 msgid "Yes"
 msgstr "Ja"
 
-#: ../libxfce4ui/xfce-dialogs.c:504
+#: ../libbladeui/xfce-dialogs.c:504
 #: ../libxfce4kbd-private/xfce-shortcuts-xfwm4.c:41
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../libxfce4ui/xfce-dialogs.c:511 ../libxfce4ui/xfce-dialogs.c:519
+#: ../libbladeui/xfce-dialogs.c:511 ../libbladeui/xfce-dialogs.c:519
 msgid "Question"
 msgstr "Spørsmål"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "Session management client ID"
 msgstr "Øktbehandling klient-ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "ID"
 msgstr "ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1425
+#: ../libbladeui/xfce-sm-client.c:1425
 msgid "Disable session management"
 msgstr "Deaktiver øktbehandling"
 
-#: ../libxfce4ui/xfce-sm-client.c:1435
+#: ../libbladeui/xfce-sm-client.c:1435
 msgid "Session management options"
 msgstr "Alternativer for øktbehandling"
 
-#: ../libxfce4ui/xfce-sm-client.c:1436
+#: ../libbladeui/xfce-sm-client.c:1436
 msgid "Show session management options"
 msgstr "Vis alternativer for øktbehandling"
 
-#: ../libxfce4ui/xfce-sm-client.c:1611
+#: ../libbladeui/xfce-sm-client.c:1611
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr "Klarte ikke koble til øktbehandleren: %s"
 
-#: ../libxfce4ui/xfce-sm-client.c:1617
+#: ../libbladeui/xfce-sm-client.c:1617
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr "Øktbehandler returnerte ikke en gyldig klient-ID"
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:421
+#: ../libbladeui/xfce-spawn.c:421
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning "
@@ -530,15 +530,15 @@ msgstr "Slett siste arbeidsområde"
 msgid "Delete active workspace"
 msgstr "Slett gjeldende arbeidsområde"
 
-#: ../glade/libxfce4ui.xml.in.h:1 ../glade/libxfce4ui-2.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1 ../glade/libbladeui-2.xml.in.h:1
 msgid "Titled Dialog"
 msgstr "Vindustittel"
 
-#: ../glade/libxfce4ui.xml.in.h:2 ../glade/libxfce4ui-2.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2 ../glade/libbladeui-2.xml.in.h:2
 msgid "Subtitle"
 msgstr "Undertittel"
 
-#: ../glade/libxfce4ui.xml.in.h:3 ../glade/libxfce4ui-2.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3 ../glade/libbladeui-2.xml.in.h:3
 msgid "Xfce 4 Widgets"
 msgstr "Xfce4 Skjermelementer"
 
@@ -555,8 +555,8 @@ msgid "Handles the placement of windows on the screen."
 msgstr "Håndterer plassering av vinduer på skjermen."
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
-msgstr "Panel"
+msgid "Bar"
+msgstr "Bar"
 
 #: ../xfce4-about/main.c:75
 msgid ""
@@ -589,8 +589,8 @@ msgid "Volume manager"
 msgstr "Behandle flyttbare media"
 
 #: ../xfce4-about/main.c:90
-msgid "Automatic management of removable drives and media for Thunar."
-msgstr "Automatisk behandling av flyttbare enheter og media for Thunar."
+msgid "Automatic management of removable drives and media for Fmb."
+msgstr "Automatisk behandling av flyttbare enheter og media for Fmb."
 
 #: ../xfce4-about/main.c:93
 msgid "Session Manager"
@@ -694,20 +694,20 @@ msgstr "Xfce 4 er kopirettsbeskyttet Olivier Fourdan (fourdan@xfce.org) De forsk
 
 #: ../xfce4-about/main.c:294
 msgid ""
-"The libxfce4ui, libxfce4util and exo packages are distributed under the "
+"The libbladeui, libbladeutil and blxo packages are distributed under the "
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Pakkene libxfce4ui, libxfce4util og exo distribueres under betingelsene til GNU Library General Public License som publisert av Free Software Foundation; enten lisensens versjon 2, eller (ditt valg) enhver senere versjon. "
+msgstr "Pakkene libbladeui, libbladeutil og blxo distribueres under betingelsene til GNU Library General Public License som publisert av Free Software Foundation; enten lisensens versjon 2, eller (ditt valg) enhver senere versjon. "
 
 #: ../xfce4-about/main.c:301
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, "
-"xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, "
+"blade-settings, blconf, xfdesktop and xfwm4 are distributed under the terms "
 "of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
-msgstr "Pakkene thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfdesktop og xfwm4 distribueres under betingelsene til GNU General Public License som publisert av Free Software Foundation; enten lisensens versjon 2, eller (ditt valg) enhver senere versjon."
+msgstr "Pakkene fmb, xfce4-appfinder, blade-bar, xfce4-session, blade-settings, blconf, xfdesktop og xfwm4 distribueres under betingelsene til GNU General Public License som publisert av Free Software Foundation; enten lisensens versjon 2, eller (ditt valg) enhver senere versjon."
 
 #: ../xfce4-about/main.c:448
 #, c-format
@@ -819,10 +819,10 @@ msgid ""
 msgstr "En fil ved navn \"%s\" finnes allerede i denne mappen, filen har ikke blitt lagt til."
 
 #: ../tests/test-ui.c:149
-msgid "Failed to migrate the old panel configuration"
-msgstr "Klarte ikke flytte det gamle paneloppsettet"
+msgid "Failed to migrate the old bar configuration"
+msgstr "Klarte ikke flytte det gamle baroppsettet"
 
 #: ../tests/test-ui.c:202 ../tests/test-ui.c:222 ../tests/test-ui.c:251
 #: ../tests/test-ui.c:273
-msgid "Customize settings stored by Xfconf"
-msgstr "Tilpass innstillinger lagret av Xfconf"
+msgid "Customize settings stored by Blconf"
+msgstr "Tilpass innstillinger lagret av Blconf"

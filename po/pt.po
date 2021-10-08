@@ -11,110 +11,110 @@ msgstr ""
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-06-02 11:21+0000\n"
 "Last-Translator: Nuno Miguel <nunomgue@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/xfce/libxfce4ui/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/xfce/libbladeui/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:110
+#: ../libbladeui/xfce-dialogs.c:110
 msgid "Failed to open web browser for online documentation"
 msgstr "Falhou a abertura do navegador web para a documentação"
 
-#: ../libxfce4ui/xfce-dialogs.c:265
+#: ../libbladeui/xfce-dialogs.c:265
 #, c-format
 msgid "Do you want to read the %s manual online?"
 msgstr "Pretende ler o manual de %s online?"
 
-#: ../libxfce4ui/xfce-dialogs.c:267
+#: ../libbladeui/xfce-dialogs.c:267
 msgid "Do you want to read the manual online?"
 msgstr "Pretende ler o manual na Internet?"
 
-#: ../libxfce4ui/xfce-dialogs.c:270
+#: ../libbladeui/xfce-dialogs.c:270
 msgid "Online Documentation"
 msgstr "Documentação online"
 
-#: ../libxfce4ui/xfce-dialogs.c:277
+#: ../libbladeui/xfce-dialogs.c:277
 msgid ""
 "You will be redirected to the documentation website where the help pages are"
 " maintained and translated."
 msgstr "Será direcionado para a página de documentação na Internet, na qual as páginas de ajuda são produzidas e traduzidas."
 
-#: ../libxfce4ui/xfce-dialogs.c:291
+#: ../libbladeui/xfce-dialogs.c:291
 msgid "_Read Online"
 msgstr "Le_r na online"
 
-#: ../libxfce4ui/xfce-dialogs.c:300
+#: ../libbladeui/xfce-dialogs.c:300
 msgid "_Always go directly to the online documentation"
 msgstr "_Abrir sempre a documentação online"
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Information"
 msgstr "Informações"
 
-#: ../libxfce4ui/xfce-dialogs.c:358 ../libxfce4ui/xfce-dialogs.c:401
-#: ../libxfce4ui/xfce-dialogs.c:445
+#: ../libbladeui/xfce-dialogs.c:358 ../libbladeui/xfce-dialogs.c:401
+#: ../libbladeui/xfce-dialogs.c:445
 msgid "Close"
 msgstr "Fechar"
 
-#: ../libxfce4ui/xfce-dialogs.c:391
+#: ../libbladeui/xfce-dialogs.c:391
 msgid "Warning"
 msgstr "Aviso"
 
-#: ../libxfce4ui/xfce-dialogs.c:435
+#: ../libbladeui/xfce-dialogs.c:435
 msgid "Error"
 msgstr "Erro"
 
-#: ../libxfce4ui/xfce-dialogs.c:494
+#: ../libbladeui/xfce-dialogs.c:494
 msgid "No"
 msgstr "Não"
 
-#: ../libxfce4ui/xfce-dialogs.c:496
+#: ../libbladeui/xfce-dialogs.c:496
 msgid "Yes"
 msgstr "Sim"
 
-#: ../libxfce4ui/xfce-dialogs.c:504
+#: ../libbladeui/xfce-dialogs.c:504
 #: ../libxfce4kbd-private/xfce-shortcuts-xfwm4.c:41
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ../libxfce4ui/xfce-dialogs.c:511 ../libxfce4ui/xfce-dialogs.c:519
+#: ../libbladeui/xfce-dialogs.c:511 ../libbladeui/xfce-dialogs.c:519
 msgid "Question"
 msgstr "Questão"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "Session management client ID"
 msgstr "ID do gestor de sessões"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "ID"
 msgstr "ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1425
+#: ../libbladeui/xfce-sm-client.c:1425
 msgid "Disable session management"
 msgstr "Desativar gestão de sessões"
 
-#: ../libxfce4ui/xfce-sm-client.c:1435
+#: ../libbladeui/xfce-sm-client.c:1435
 msgid "Session management options"
 msgstr "Opções da gestão de sessões"
 
-#: ../libxfce4ui/xfce-sm-client.c:1436
+#: ../libbladeui/xfce-sm-client.c:1436
 msgid "Show session management options"
 msgstr "Mostrar opções da gestão de sessões"
 
-#: ../libxfce4ui/xfce-sm-client.c:1611
+#: ../libbladeui/xfce-sm-client.c:1611
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr "Falha ao ligar ao gestor de sessão: %s"
 
-#: ../libxfce4ui/xfce-sm-client.c:1617
+#: ../libbladeui/xfce-sm-client.c:1617
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr "O gestor de sessão não devolveu uma identificação válida"
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:421
+#: ../libbladeui/xfce-spawn.c:421
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning "
@@ -526,15 +526,15 @@ msgstr "Apagar última área de trabalho"
 msgid "Delete active workspace"
 msgstr "Apagar área de trabalho ativa"
 
-#: ../glade/libxfce4ui.xml.in.h:1 ../glade/libxfce4ui-2.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1 ../glade/libbladeui-2.xml.in.h:1
 msgid "Titled Dialog"
 msgstr "Diálogo titulado"
 
-#: ../glade/libxfce4ui.xml.in.h:2 ../glade/libxfce4ui-2.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2 ../glade/libbladeui-2.xml.in.h:2
 msgid "Subtitle"
 msgstr "Subtítulo"
 
-#: ../glade/libxfce4ui.xml.in.h:3 ../glade/libxfce4ui-2.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3 ../glade/libbladeui-2.xml.in.h:3
 msgid "Xfce 4 Widgets"
 msgstr "\"Widgets\" Xfce 4"
 
@@ -551,7 +551,7 @@ msgid "Handles the placement of windows on the screen."
 msgstr "Gere o posicionamento das janelas no ecrã."
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
+msgid "Bar"
 msgstr "Painel"
 
 #: ../xfce4-about/main.c:75
@@ -585,8 +585,8 @@ msgid "Volume manager"
 msgstr "Gestor de volume"
 
 #: ../xfce4-about/main.c:90
-msgid "Automatic management of removable drives and media for Thunar."
-msgstr "Gestão automática de unidades amovíveis e media para Thunar."
+msgid "Automatic management of removable drives and media for Fmb."
+msgstr "Gestão automática de unidades amovíveis e media para Fmb."
 
 #: ../xfce4-about/main.c:93
 msgid "Session Manager"
@@ -690,20 +690,20 @@ msgstr "Os direitos do Xfce 4 pertencem a Olivier Fourdan (fourdan@xfce.org). Os
 
 #: ../xfce4-about/main.c:294
 msgid ""
-"The libxfce4ui, libxfce4util and exo packages are distributed under the "
+"The libbladeui, libbladeutil and blxo packages are distributed under the "
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Os pacotes libxfce4ui, libxfce4util e exo são distribuídos nos termos da GNU Library General Public License como publicado pela Free Software Foundation; tanto na versão 2 da licença, ou (por sua opção) qualquer versão mais recente."
+msgstr "Os pacotes libbladeui, libbladeutil e blxo são distribuídos nos termos da GNU Library General Public License como publicado pela Free Software Foundation; tanto na versão 2 da licença, ou (por sua opção) qualquer versão mais recente."
 
 #: ../xfce4-about/main.c:301
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, "
-"xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, "
+"blade-settings, blconf, xfdesktop and xfwm4 are distributed under the terms "
 "of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
-msgstr "Os pacotes thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfdesktop e xfwm4 são distribuídos nos termos da GNU General Public License como publicado pela Free Software Foundation; tanto a versão 2 da licença, ou (por sua opção) qualquer versão mais recente."
+msgstr "Os pacotes fmb, xfce4-appfinder, blade-bar, xfce4-session, blade-settings, blconf, xfdesktop e xfwm4 são distribuídos nos termos da GNU General Public License como publicado pela Free Software Foundation; tanto a versão 2 da licença, ou (por sua opção) qualquer versão mais recente."
 
 #: ../xfce4-about/main.c:448
 #, c-format
@@ -815,10 +815,10 @@ msgid ""
 msgstr "Um ficheiro com o nome \"%s\" já existe neste diretório, o ficheiro não foi adicionado."
 
 #: ../tests/test-ui.c:149
-msgid "Failed to migrate the old panel configuration"
+msgid "Failed to migrate the old bar configuration"
 msgstr "Falha ao migrar a anterior configuração do painel"
 
 #: ../tests/test-ui.c:202 ../tests/test-ui.c:222 ../tests/test-ui.c:251
 #: ../tests/test-ui.c:273
-msgid "Customize settings stored by Xfconf"
-msgstr "Personalizar definições guardadas pelo Xfconf"
+msgid "Customize settings stored by Blconf"
+msgstr "Personalizar definições guardadas pelo Blconf"

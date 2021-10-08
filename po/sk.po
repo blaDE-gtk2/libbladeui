@@ -14,110 +14,110 @@ msgstr ""
 "POT-Creation-Date: 2019-05-04 18:30+0200\n"
 "PO-Revision-Date: 2019-05-04 16:30+0000\n"
 "Last-Translator: Slavko <linux@slavino.sk>\n"
-"Language-Team: Slovak (http://www.transifex.com/xfce/libxfce4ui/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/xfce/libbladeui/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:110
+#: ../libbladeui/xfce-dialogs.c:110
 msgid "Failed to open web browser for online documentation"
 msgstr "Otvorenie online dokumentácie vo webovom prehliadači zlyhalo"
 
-#: ../libxfce4ui/xfce-dialogs.c:265
+#: ../libbladeui/xfce-dialogs.c:265
 #, c-format
 msgid "Do you want to read the %s manual online?"
 msgstr "Chcete si prečítať online príručku pre %s?"
 
-#: ../libxfce4ui/xfce-dialogs.c:267
+#: ../libbladeui/xfce-dialogs.c:267
 msgid "Do you want to read the manual online?"
 msgstr "Chcete si prečítať online príručku?"
 
-#: ../libxfce4ui/xfce-dialogs.c:270
+#: ../libbladeui/xfce-dialogs.c:270
 msgid "Online Documentation"
 msgstr "Online dokumentácia"
 
-#: ../libxfce4ui/xfce-dialogs.c:277
+#: ../libbladeui/xfce-dialogs.c:277
 msgid ""
 "You will be redirected to the documentation website where the help pages are"
 " maintained and translated."
 msgstr "Budete presmerovaní na webovú stránku dokumentácie, kde sa stránky pomocníka udržujú a prekladajú."
 
-#: ../libxfce4ui/xfce-dialogs.c:291
+#: ../libbladeui/xfce-dialogs.c:291
 msgid "_Read Online"
 msgstr "Čítať _online"
 
-#: ../libxfce4ui/xfce-dialogs.c:300
+#: ../libbladeui/xfce-dialogs.c:300
 msgid "_Always go directly to the online documentation"
 msgstr "_Vždy automaticky prejsť na online dokumentáciu"
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Information"
 msgstr "Informácie"
 
-#: ../libxfce4ui/xfce-dialogs.c:358 ../libxfce4ui/xfce-dialogs.c:401
-#: ../libxfce4ui/xfce-dialogs.c:445
+#: ../libbladeui/xfce-dialogs.c:358 ../libbladeui/xfce-dialogs.c:401
+#: ../libbladeui/xfce-dialogs.c:445
 msgid "Close"
 msgstr "Zatvoriť"
 
-#: ../libxfce4ui/xfce-dialogs.c:391
+#: ../libbladeui/xfce-dialogs.c:391
 msgid "Warning"
 msgstr "Varovanie"
 
-#: ../libxfce4ui/xfce-dialogs.c:435
+#: ../libbladeui/xfce-dialogs.c:435
 msgid "Error"
 msgstr "Chyba"
 
-#: ../libxfce4ui/xfce-dialogs.c:494
+#: ../libbladeui/xfce-dialogs.c:494
 msgid "No"
 msgstr "Nie"
 
-#: ../libxfce4ui/xfce-dialogs.c:496
+#: ../libbladeui/xfce-dialogs.c:496
 msgid "Yes"
 msgstr "Áno"
 
-#: ../libxfce4ui/xfce-dialogs.c:504
+#: ../libbladeui/xfce-dialogs.c:504
 #: ../libxfce4kbd-private/xfce-shortcuts-xfwm4.c:41
 msgid "Cancel"
 msgstr "Zrušiť"
 
-#: ../libxfce4ui/xfce-dialogs.c:511 ../libxfce4ui/xfce-dialogs.c:519
+#: ../libbladeui/xfce-dialogs.c:511 ../libbladeui/xfce-dialogs.c:519
 msgid "Question"
 msgstr "Otázka"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "Session management client ID"
 msgstr "ID klienta správy relácií"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "ID"
 msgstr "ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1425
+#: ../libbladeui/xfce-sm-client.c:1425
 msgid "Disable session management"
 msgstr "Vypnúť správu relácie"
 
-#: ../libxfce4ui/xfce-sm-client.c:1435
+#: ../libbladeui/xfce-sm-client.c:1435
 msgid "Session management options"
 msgstr "Voľby správy relácií"
 
-#: ../libxfce4ui/xfce-sm-client.c:1436
+#: ../libbladeui/xfce-sm-client.c:1436
 msgid "Show session management options"
 msgstr "Zobraziť voľby správy relácií"
 
-#: ../libxfce4ui/xfce-sm-client.c:1611
+#: ../libbladeui/xfce-sm-client.c:1611
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr "Nepodarilo sa pripojiť k správcovi sedenia: %s"
 
-#: ../libxfce4ui/xfce-sm-client.c:1617
+#: ../libbladeui/xfce-sm-client.c:1617
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr "Správca sedenia nevrátil platný identifikátor klienta"
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:421
+#: ../libbladeui/xfce-spawn.c:421
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning "
@@ -529,15 +529,15 @@ msgstr "Odstrániť poslednú pracovnú plochu"
 msgid "Delete active workspace"
 msgstr "Odstrániť pracovnú plochu"
 
-#: ../glade/libxfce4ui.xml.in.h:1 ../glade/libxfce4ui-2.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1 ../glade/libbladeui-2.xml.in.h:1
 msgid "Titled Dialog"
 msgstr "Dialóg s titlkom"
 
-#: ../glade/libxfce4ui.xml.in.h:2 ../glade/libxfce4ui-2.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2 ../glade/libbladeui-2.xml.in.h:2
 msgid "Subtitle"
 msgstr "Podnadpis"
 
-#: ../glade/libxfce4ui.xml.in.h:3 ../glade/libxfce4ui-2.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3 ../glade/libbladeui-2.xml.in.h:3
 msgid "Xfce 4 Widgets"
 msgstr "Widgety Xfce 4"
 
@@ -554,8 +554,8 @@ msgid "Handles the placement of windows on the screen."
 msgstr "Riadi umiestnenie okien na obrazovke."
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
-msgstr "Panel"
+msgid "Bar"
+msgstr "Bar"
 
 #: ../xfce4-about/main.c:75
 msgid ""
@@ -588,7 +588,7 @@ msgid "Volume manager"
 msgstr ""
 
 #: ../xfce4-about/main.c:90
-msgid "Automatic management of removable drives and media for Thunar."
+msgid "Automatic management of removable drives and media for Fmb."
 msgstr ""
 
 #: ../xfce4-about/main.c:93
@@ -685,7 +685,7 @@ msgstr "Xfce 4 je autorským právom Oliviera Fourdana (fourdan@xfce.org). Rôzn
 
 #: ../xfce4-about/main.c:289
 msgid ""
-"The libxfce4ui, libxfce4util and exo packages are distributed under the "
+"The libbladeui, libbladeutil and blxo packages are distributed under the "
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
@@ -693,8 +693,8 @@ msgstr ""
 
 #: ../xfce4-about/main.c:296
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, "
-"xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, "
+"blade-settings, blconf, xfdesktop and xfwm4 are distributed under the terms "
 "of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
@@ -810,10 +810,10 @@ msgid ""
 msgstr "Súbor s názvom „%s“ už existuje v tomto adresári. Súbor nebol pridaný."
 
 #: ../tests/test-ui.c:149
-msgid "Failed to migrate the old panel configuration"
-msgstr "Nepodarilo sa presunúť starú konfiguráciu panela"
+msgid "Failed to migrate the old bar configuration"
+msgstr "Nepodarilo sa presunúť starú konfiguráciu bara"
 
 #: ../tests/test-ui.c:202 ../tests/test-ui.c:222 ../tests/test-ui.c:251
 #: ../tests/test-ui.c:273
-msgid "Customize settings stored by Xfconf"
-msgstr "Prispôsobenie nastavení uloženého s Xfconf"
+msgid "Customize settings stored by Blconf"
+msgstr "Prispôsobenie nastavení uloženého s Blconf"

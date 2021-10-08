@@ -27,10 +27,10 @@
 
 #include <gtk/gtk.h>
 #include <glib.h>
-#include <libxfce4ui/libxfce4ui.h>
+#include <libbladeui/libbladeui.h>
 
 
-static const gchar *APP_NAME = "libxfce4ui: Test";
+static const gchar *APP_NAME = "libbladeui: Test";
 
 static void
 main_window_destroy (GtkWidget *window)
@@ -87,7 +87,7 @@ static void
 show_xfce_dialog_show_help_with_version (GtkButton *button,
                                          gpointer unused)
 {
-  xfce_dialog_show_help_with_version (NULL, "xfce4-power-manager", "start", NULL, "4.12");
+  xfce_dialog_show_help_with_version (NULL, "blade-pm", "start", NULL, "4.12");
 }
 
 static void
@@ -146,7 +146,7 @@ show_xfce_dialog_show_error (GtkButton *button,
 
   g_set_error (&error, G_FILE_ERROR, G_FILE_ERROR_NOENT, "This isn't a real error");
 
-  xfce_dialog_show_error (NULL, error, _("Failed to migrate the old panel configuration"));
+  xfce_dialog_show_error (NULL, error, _("Failed to migrate the old bar configuration"));
 
   g_clear_error (&error);
 }
@@ -157,8 +157,8 @@ show_xfce_dialog_confirm (GtkButton *button,
 {
 #if GTK_CHECK_VERSION (3, 0, 0)
   xfce_dialog_confirm (NULL, "system-run", "Execute",
-                       "Do you want to start the panel? If you do, make sure "
-                       "you save the session on logout, so the panel is "
+                       "Do you want to start the bar? If you do, make sure "
+                       "you save the session on logout, so the bar is "
                        "automatically started the next time you login.",
                        "No running instance of %s was found", G_LOG_DOMAIN);
 #endif
@@ -167,8 +167,8 @@ show_xfce_dialog_confirm (GtkButton *button,
  * looks like in Gtk3 with the stock icons */
 G_GNUC_BEGIN_IGNORE_DEPRECATIONS
   xfce_dialog_confirm (NULL, GTK_STOCK_EXECUTE, "Execute",
-                       "Do you want to start the panel? If you do, make sure "
-                       "you save the session on logout, so the panel is "
+                       "Do you want to start the bar? If you do, make sure "
+                       "you save the session on logout, so the bar is "
                        "automatically started the next time you login.",
                        "No running instance of %s was found", G_LOG_DOMAIN);
 G_GNUC_END_IGNORE_DEPRECATIONS
@@ -199,7 +199,7 @@ show_xfce_titled_dialog_new_with_buttons (GtkButton *button,
                                                 NULL);
 
   xfce_titled_dialog_set_subtitle (XFCE_TITLED_DIALOG (dialog_gtk3),
-                                   _("Customize settings stored by Xfconf"));
+                                   _("Customize settings stored by Blconf"));
 
   gtk_window_set_icon_name (GTK_WINDOW (dialog_gtk3), "preferences-system");
   gtk_window_set_type_hint (GTK_WINDOW (dialog_gtk3), GDK_WINDOW_TYPE_HINT_NORMAL);
@@ -219,7 +219,7 @@ G_GNUC_BEGIN_IGNORE_DEPRECATIONS
                                                      NULL);
 
   xfce_titled_dialog_set_subtitle (XFCE_TITLED_DIALOG (dialog_gtk2),
-                                   _("Customize settings stored by Xfconf"));
+                                   _("Customize settings stored by Blconf"));
 
   gtk_window_set_icon_name (GTK_WINDOW (dialog_gtk2), "preferences-system");
   gtk_window_set_type_hint (GTK_WINDOW (dialog_gtk2), GDK_WINDOW_TYPE_HINT_NORMAL);
@@ -248,7 +248,7 @@ show_xfce_titled_dialog_new_with_mixed_buttons (GtkButton *button,
                                                            NULL);
 
   xfce_titled_dialog_set_subtitle (XFCE_TITLED_DIALOG (dialog_gtk3),
-                                   _("Customize settings stored by Xfconf"));
+                                   _("Customize settings stored by Blconf"));
 
   gtk_window_set_icon_name (GTK_WINDOW (dialog_gtk3), "preferences-system");
   gtk_window_set_type_hint (GTK_WINDOW (dialog_gtk3), GDK_WINDOW_TYPE_HINT_NORMAL);
@@ -270,7 +270,7 @@ G_GNUC_BEGIN_IGNORE_DEPRECATIONS
                                                            NULL);
 
   xfce_titled_dialog_set_subtitle (XFCE_TITLED_DIALOG (dialog_gtk2),
-                                   _("Customize settings stored by Xfconf"));
+                                   _("Customize settings stored by Blconf"));
 
   gtk_window_set_icon_name (GTK_WINDOW (dialog_gtk2), "preferences-system");
   gtk_window_set_type_hint (GTK_WINDOW (dialog_gtk2), GDK_WINDOW_TYPE_HINT_NORMAL);

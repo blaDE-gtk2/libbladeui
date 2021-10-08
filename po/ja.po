@@ -11,110 +11,110 @@ msgstr ""
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-06-06 09:45+0000\n"
 "Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
-"Language-Team: Japanese (http://www.transifex.com/xfce/libxfce4ui/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/xfce/libbladeui/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:110
+#: ../libbladeui/xfce-dialogs.c:110
 msgid "Failed to open web browser for online documentation"
 msgstr "ウェブブラウザーでオンラインドキュメントを開くことに失敗しました"
 
-#: ../libxfce4ui/xfce-dialogs.c:265
+#: ../libbladeui/xfce-dialogs.c:265
 #, c-format
 msgid "Do you want to read the %s manual online?"
 msgstr "%s のマニュアルをオンラインで参照しますか?"
 
-#: ../libxfce4ui/xfce-dialogs.c:267
+#: ../libbladeui/xfce-dialogs.c:267
 msgid "Do you want to read the manual online?"
 msgstr "マニュアルをオンラインで参照しますか?"
 
-#: ../libxfce4ui/xfce-dialogs.c:270
+#: ../libbladeui/xfce-dialogs.c:270
 msgid "Online Documentation"
 msgstr "オンラインドキュメント"
 
-#: ../libxfce4ui/xfce-dialogs.c:277
+#: ../libbladeui/xfce-dialogs.c:277
 msgid ""
 "You will be redirected to the documentation website where the help pages are"
 " maintained and translated."
 msgstr "ドキュメントウェブサイトでヘルプページがメンテナンスおよび翻訳されている場合はリダイレクトされます。"
 
-#: ../libxfce4ui/xfce-dialogs.c:291
+#: ../libbladeui/xfce-dialogs.c:291
 msgid "_Read Online"
 msgstr "オンラインで読む(_R)"
 
-#: ../libxfce4ui/xfce-dialogs.c:300
+#: ../libbladeui/xfce-dialogs.c:300
 msgid "_Always go directly to the online documentation"
 msgstr "常にオンラインドキュメントを開く(_A)"
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Information"
 msgstr "情報"
 
-#: ../libxfce4ui/xfce-dialogs.c:358 ../libxfce4ui/xfce-dialogs.c:401
-#: ../libxfce4ui/xfce-dialogs.c:445
+#: ../libbladeui/xfce-dialogs.c:358 ../libbladeui/xfce-dialogs.c:401
+#: ../libbladeui/xfce-dialogs.c:445
 msgid "Close"
 msgstr "閉じる"
 
-#: ../libxfce4ui/xfce-dialogs.c:391
+#: ../libbladeui/xfce-dialogs.c:391
 msgid "Warning"
 msgstr "警告"
 
-#: ../libxfce4ui/xfce-dialogs.c:435
+#: ../libbladeui/xfce-dialogs.c:435
 msgid "Error"
 msgstr "エラー"
 
-#: ../libxfce4ui/xfce-dialogs.c:494
+#: ../libbladeui/xfce-dialogs.c:494
 msgid "No"
 msgstr "いいえ"
 
-#: ../libxfce4ui/xfce-dialogs.c:496
+#: ../libbladeui/xfce-dialogs.c:496
 msgid "Yes"
 msgstr "はい"
 
-#: ../libxfce4ui/xfce-dialogs.c:504
+#: ../libbladeui/xfce-dialogs.c:504
 #: ../libxfce4kbd-private/xfce-shortcuts-xfwm4.c:41
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: ../libxfce4ui/xfce-dialogs.c:511 ../libxfce4ui/xfce-dialogs.c:519
+#: ../libbladeui/xfce-dialogs.c:511 ../libbladeui/xfce-dialogs.c:519
 msgid "Question"
 msgstr "確認"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "Session management client ID"
 msgstr "セッション管理クライアント ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "ID"
 msgstr "ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1425
+#: ../libbladeui/xfce-sm-client.c:1425
 msgid "Disable session management"
 msgstr "セッション管理を無効にする"
 
-#: ../libxfce4ui/xfce-sm-client.c:1435
+#: ../libbladeui/xfce-sm-client.c:1435
 msgid "Session management options"
 msgstr "セッション管理オプション"
 
-#: ../libxfce4ui/xfce-sm-client.c:1436
+#: ../libbladeui/xfce-sm-client.c:1436
 msgid "Show session management options"
 msgstr "セッション管理オプションを表示します"
 
-#: ../libxfce4ui/xfce-sm-client.c:1611
+#: ../libbladeui/xfce-sm-client.c:1611
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr "セッションマネージャーへの接続に失敗しました: %s"
 
-#: ../libxfce4ui/xfce-sm-client.c:1617
+#: ../libbladeui/xfce-sm-client.c:1617
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr "セッションマネージャーは正常なクライアント ID を返しませんでした"
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:421
+#: ../libbladeui/xfce-spawn.c:421
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning "
@@ -526,15 +526,15 @@ msgstr "最後のワークスペースを削除"
 msgid "Delete active workspace"
 msgstr "現在のワークスペースを削除"
 
-#: ../glade/libxfce4ui.xml.in.h:1 ../glade/libxfce4ui-2.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1 ../glade/libbladeui-2.xml.in.h:1
 msgid "Titled Dialog"
 msgstr "タイトル付きダイアログ"
 
-#: ../glade/libxfce4ui.xml.in.h:2 ../glade/libxfce4ui-2.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2 ../glade/libbladeui-2.xml.in.h:2
 msgid "Subtitle"
 msgstr "副題"
 
-#: ../glade/libxfce4ui.xml.in.h:3 ../glade/libxfce4ui-2.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3 ../glade/libbladeui-2.xml.in.h:3
 msgid "Xfce 4 Widgets"
 msgstr "Xfce 4 ウィジェット"
 
@@ -551,7 +551,7 @@ msgid "Handles the placement of windows on the screen."
 msgstr "画面上のウィンドウの配置を管理します。"
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
+msgid "Bar"
 msgstr "パネル"
 
 #: ../xfce4-about/main.c:75
@@ -585,8 +585,8 @@ msgid "Volume manager"
 msgstr "ボリュームマネージャー"
 
 #: ../xfce4-about/main.c:90
-msgid "Automatic management of removable drives and media for Thunar."
-msgstr "Thunar 用のリムーバブルドライブとメディアの自動管理。"
+msgid "Automatic management of removable drives and media for Fmb."
+msgstr "Fmb 用のリムーバブルドライブとメディアの自動管理。"
 
 #: ../xfce4-about/main.c:93
 msgid "Session Manager"
@@ -690,20 +690,20 @@ msgstr "Xfce の著作権は Olivier Fourdan (fourdan@xfce.org) が保有して�
 
 #: ../xfce4-about/main.c:294
 msgid ""
-"The libxfce4ui, libxfce4util and exo packages are distributed under the "
+"The libbladeui, libbladeutil and blxo packages are distributed under the "
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "libxfce4ui、libxfce4util、および exo の各パッケージは、フリーソフトウェア財団によって発行された GNU ライブラリ一般公衆使用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件下で配布されています。"
+msgstr "libbladeui、libbladeutil、および blxo の各パッケージは、フリーソフトウェア財団によって発行された GNU ライブラリ一般公衆使用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件下で配布されています。"
 
 #: ../xfce4-about/main.c:301
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, "
-"xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, "
+"blade-settings, blconf, xfdesktop and xfwm4 are distributed under the terms "
 "of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
-msgstr "thunar、xfce4-appfinder、xfce4-panel、xfce4-session、xfce4-settings、xfconf、xfdesktop および xfwm4 の各パッケージは、フリーソフトウェア財団によって発行された GNU ライブラリ一般公衆使用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件下で配布されています。"
+msgstr "fmb、xfce4-appfinder、blade-bar、xfce4-session、blade-settings、blconf、xfdesktop および xfwm4 の各パッケージは、フリーソフトウェア財団によって発行された GNU ライブラリ一般公衆使用許諾契約書 (バージョン2か、希望によってはそれ以降のバージョンのうちどれか) の定める条件下で配布されています。"
 
 #: ../xfce4-about/main.c:448
 #, c-format
@@ -815,10 +815,10 @@ msgid ""
 msgstr "\"%s\" の名前のファイルが既にこのディレクトリに存在し、ファイルが追加されていません。"
 
 #: ../tests/test-ui.c:149
-msgid "Failed to migrate the old panel configuration"
+msgid "Failed to migrate the old bar configuration"
 msgstr "古いパネル設定の移行に失敗しました"
 
 #: ../tests/test-ui.c:202 ../tests/test-ui.c:222 ../tests/test-ui.c:251
 #: ../tests/test-ui.c:273
-msgid "Customize settings stored by Xfconf"
-msgstr "保存された設定を Xfconf によってカスタマイズします"
+msgid "Customize settings stored by Blconf"
+msgstr "保存された設定を Blconf によってカスタマイズします"

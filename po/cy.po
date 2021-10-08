@@ -11,110 +11,110 @@ msgstr ""
 "POT-Creation-Date: 2019-05-04 18:30+0200\n"
 "PO-Revision-Date: 2019-05-04 16:30+0000\n"
 "Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Welsh (http://www.transifex.com/xfce/libxfce4ui/language/cy/)\n"
+"Language-Team: Welsh (http://www.transifex.com/xfce/libbladeui/language/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cy\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:110
+#: ../libbladeui/xfce-dialogs.c:110
 msgid "Failed to open web browser for online documentation"
 msgstr "Methu agor porwr gwe ar gyfer dogfenyddiaeth ar-lein."
 
-#: ../libxfce4ui/xfce-dialogs.c:265
+#: ../libbladeui/xfce-dialogs.c:265
 #, c-format
 msgid "Do you want to read the %s manual online?"
 msgstr "Ydych eisiau darllen y llawlyfr %sar-lein?"
 
-#: ../libxfce4ui/xfce-dialogs.c:267
+#: ../libbladeui/xfce-dialogs.c:267
 msgid "Do you want to read the manual online?"
 msgstr "Ydych eisiau darllen y llawlyfr ar-lein?"
 
-#: ../libxfce4ui/xfce-dialogs.c:270
+#: ../libbladeui/xfce-dialogs.c:270
 msgid "Online Documentation"
 msgstr "Dogfenyddiaeth Ar-lein"
 
-#: ../libxfce4ui/xfce-dialogs.c:277
+#: ../libbladeui/xfce-dialogs.c:277
 msgid ""
 "You will be redirected to the documentation website where the help pages are"
 " maintained and translated."
 msgstr "Cewch eich dargyfeirio at y wefan dogfenyddiaeth ble mae'r tudalennau cymorth yn cael eu cynnal a'u cyfieithu."
 
-#: ../libxfce4ui/xfce-dialogs.c:291
+#: ../libbladeui/xfce-dialogs.c:291
 msgid "_Read Online"
 msgstr "_Darllen Ar-lein"
 
-#: ../libxfce4ui/xfce-dialogs.c:300
+#: ../libbladeui/xfce-dialogs.c:300
 msgid "_Always go directly to the online documentation"
 msgstr "_Mynd yn syth i'r dogfenyddiaeth ar-lein bob tro"
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Information"
 msgstr "Gwybodaeth"
 
-#: ../libxfce4ui/xfce-dialogs.c:358 ../libxfce4ui/xfce-dialogs.c:401
-#: ../libxfce4ui/xfce-dialogs.c:445
+#: ../libbladeui/xfce-dialogs.c:358 ../libbladeui/xfce-dialogs.c:401
+#: ../libbladeui/xfce-dialogs.c:445
 msgid "Close"
 msgstr "Cau"
 
-#: ../libxfce4ui/xfce-dialogs.c:391
+#: ../libbladeui/xfce-dialogs.c:391
 msgid "Warning"
 msgstr "Rhybudd"
 
-#: ../libxfce4ui/xfce-dialogs.c:435
+#: ../libbladeui/xfce-dialogs.c:435
 msgid "Error"
 msgstr "Gwall"
 
-#: ../libxfce4ui/xfce-dialogs.c:494
+#: ../libbladeui/xfce-dialogs.c:494
 msgid "No"
 msgstr "Na"
 
-#: ../libxfce4ui/xfce-dialogs.c:496
+#: ../libbladeui/xfce-dialogs.c:496
 msgid "Yes"
 msgstr "Ia"
 
-#: ../libxfce4ui/xfce-dialogs.c:504
+#: ../libbladeui/xfce-dialogs.c:504
 #: ../libxfce4kbd-private/xfce-shortcuts-xfwm4.c:41
 msgid "Cancel"
 msgstr "Canslo"
 
-#: ../libxfce4ui/xfce-dialogs.c:511 ../libxfce4ui/xfce-dialogs.c:519
+#: ../libbladeui/xfce-dialogs.c:511 ../libbladeui/xfce-dialogs.c:519
 msgid "Question"
 msgstr "Cwestiwn"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "Session management client ID"
 msgstr "Rhif adnabod gwestai rheolaeth sesiwn"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "ID"
 msgstr "Rhif adnabod"
 
-#: ../libxfce4ui/xfce-sm-client.c:1425
+#: ../libbladeui/xfce-sm-client.c:1425
 msgid "Disable session management"
 msgstr "Analluogi rheolaeth sesiwn"
 
-#: ../libxfce4ui/xfce-sm-client.c:1435
+#: ../libbladeui/xfce-sm-client.c:1435
 msgid "Session management options"
 msgstr "Dewisiadau rheolaeth sesiwn"
 
-#: ../libxfce4ui/xfce-sm-client.c:1436
+#: ../libbladeui/xfce-sm-client.c:1436
 msgid "Show session management options"
 msgstr "Dangos dewisiadau rheolaeth sesiwn"
 
-#: ../libxfce4ui/xfce-sm-client.c:1611
+#: ../libbladeui/xfce-sm-client.c:1611
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr "Methu cysylltu a'r rheolwr sesiwn: %s"
 
-#: ../libxfce4ui/xfce-sm-client.c:1617
+#: ../libbladeui/xfce-sm-client.c:1617
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr "Ni gafwyd rhif adnabod gwestai dilys gan y rheolwr sesiwn"
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:421
+#: ../libbladeui/xfce-spawn.c:421
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning "
@@ -526,15 +526,15 @@ msgstr "Dileu'r gweithle olaf"
 msgid "Delete active workspace"
 msgstr "Dileu'r gweithle bresennol"
 
-#: ../glade/libxfce4ui.xml.in.h:1 ../glade/libxfce4ui-2.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1 ../glade/libbladeui-2.xml.in.h:1
 msgid "Titled Dialog"
 msgstr "Deialog â Theitl"
 
-#: ../glade/libxfce4ui.xml.in.h:2 ../glade/libxfce4ui-2.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2 ../glade/libbladeui-2.xml.in.h:2
 msgid "Subtitle"
 msgstr "Isdeitl"
 
-#: ../glade/libxfce4ui.xml.in.h:3 ../glade/libxfce4ui-2.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3 ../glade/libbladeui-2.xml.in.h:3
 msgid "Xfce 4 Widgets"
 msgstr "Celfigion Xfce 4"
 
@@ -551,8 +551,8 @@ msgid "Handles the placement of windows on the screen."
 msgstr "Yn rheoli gosod ffenestri ar y sgrin."
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
-msgstr "Panel"
+msgid "Bar"
+msgstr "Bar"
 
 #: ../xfce4-about/main.c:75
 msgid ""
@@ -585,7 +585,7 @@ msgid "Volume manager"
 msgstr ""
 
 #: ../xfce4-about/main.c:90
-msgid "Automatic management of removable drives and media for Thunar."
+msgid "Automatic management of removable drives and media for Fmb."
 msgstr ""
 
 #: ../xfce4-about/main.c:93
@@ -682,7 +682,7 @@ msgstr "Mae Xfce 4 yn hawlfraint Olivier Fourdan (fourdan@xfce.org). Mae'r gwaha
 
 #: ../xfce4-about/main.c:289
 msgid ""
-"The libxfce4ui, libxfce4util and exo packages are distributed under the "
+"The libbladeui, libbladeutil and blxo packages are distributed under the "
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
@@ -690,8 +690,8 @@ msgstr ""
 
 #: ../xfce4-about/main.c:296
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, "
-"xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, "
+"blade-settings, blconf, xfdesktop and xfwm4 are distributed under the terms "
 "of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
@@ -807,10 +807,10 @@ msgid ""
 msgstr "Mae ffeil o'r enw \"%s\" eisoes yn bodoli yn y ffolder yma, ni ychwanegwyd y ffeil."
 
 #: ../tests/test-ui.c:149
-msgid "Failed to migrate the old panel configuration"
-msgstr "Methu mudo'r hen ffurfweddiad panel"
+msgid "Failed to migrate the old bar configuration"
+msgstr "Methu mudo'r hen ffurfweddiad bar"
 
 #: ../tests/test-ui.c:202 ../tests/test-ui.c:222 ../tests/test-ui.c:251
 #: ../tests/test-ui.c:273
-msgid "Customize settings stored by Xfconf"
-msgstr "Addasu gosodiadau a storir gan Xfconf"
+msgid "Customize settings stored by Blconf"
+msgstr "Addasu gosodiadau a storir gan Blconf"

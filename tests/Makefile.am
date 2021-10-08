@@ -18,8 +18,9 @@
 # Boston, MA 02110-1301, USA.
 
 AM_CPPFLAGS =								\
+	-DGLIB_DISABLE_DEPRECATION_WARNINGS \
 	-I$(top_srcdir)							\
-	-DG_LOG_DOMAIN=\"libxfce4ui-tests\"
+	-DG_LOG_DOMAIN=\"libbladeui-tests\"
 
 noinst_PROGRAMS =
 
@@ -37,18 +38,18 @@ test_ui_gtk2_CFLAGS =					\
 	$(LIBSM_CFLAGS) \
 	$(GTK2_CFLAGS) \
 	$(LIBSTARTUP_NOTIFICATION_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
+	$(LIBBLADEUTIL_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
 test_ui_gtk2_DEPENDENCIES =				\
-	$(top_builddir)/libxfce4ui/libxfce4ui-1.la
+	$(top_builddir)/libbladeui/libbladeui-1.la
 
 test_ui_gtk2_LDADD =					\
 	$(LIBSM_LIBS) \
 	$(GTK2_LIBS) \
 	$(LIBSTARTUP_NOTIFICATION_LIBS) \
-	$(LIBXFCE4UTIL_LIBS) \
-	$(top_builddir)/libxfce4ui/libxfce4ui-1.la
+	$(LIBBLADEUTIL_LIBS) \
+	$(top_builddir)/libbladeui/libbladeui-1.la
 
 endif # ENABLE_GTK2_LIBRARY
 
@@ -63,17 +64,17 @@ test_ui_gtk3_CFLAGS =					\
 	$(LIBSM_CFLAGS) \
 	$(GTK3_CFLAGS) \
 	$(LIBSTARTUP_NOTIFICATION_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
+	$(LIBBLADEUTIL_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
 test_ui_gtk3_DEPENDENCIES =				\
-	$(top_builddir)/libxfce4ui/libxfce4ui-2.la
+	$(top_builddir)/libbladeui/libbladeui-2.la
 
 test_ui_gtk3_LDADD =					\
 	$(LIBSM_LIBS) \
 	$(GTK3_LIBS) \
 	$(LIBSTARTUP_NOTIFICATION_LIBS) \
-	$(LIBXFCE4UTIL_LIBS) \
-	$(top_builddir)/libxfce4ui/libxfce4ui-2.la
+	$(LIBBLADEUTIL_LIBS) \
+	$(top_builddir)/libbladeui/libbladeui-2.la
 
 endif # BUILD_TESTS

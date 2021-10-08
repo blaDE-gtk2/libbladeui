@@ -15,110 +15,110 @@ msgstr ""
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-05-28 16:43+0000\n"
 "Last-Translator: Gábor P.\n"
-"Language-Team: Hungarian (http://www.transifex.com/xfce/libxfce4ui/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/xfce/libbladeui/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:110
+#: ../libbladeui/xfce-dialogs.c:110
 msgid "Failed to open web browser for online documentation"
 msgstr "A webböngésző megnyitása nem sikerült az online dokumentációhoz"
 
-#: ../libxfce4ui/xfce-dialogs.c:265
+#: ../libbladeui/xfce-dialogs.c:265
 #, c-format
 msgid "Do you want to read the %s manual online?"
 msgstr "Szeretné elolvasni a(z) %s kézikönyvét online?"
 
-#: ../libxfce4ui/xfce-dialogs.c:267
+#: ../libbladeui/xfce-dialogs.c:267
 msgid "Do you want to read the manual online?"
 msgstr "Szeretné elolvasni a kézikönyvet online?"
 
-#: ../libxfce4ui/xfce-dialogs.c:270
+#: ../libbladeui/xfce-dialogs.c:270
 msgid "Online Documentation"
 msgstr "Online dokumentáció"
 
-#: ../libxfce4ui/xfce-dialogs.c:277
+#: ../libbladeui/xfce-dialogs.c:277
 msgid ""
 "You will be redirected to the documentation website where the help pages are"
 " maintained and translated."
 msgstr "Átirányításra kerül a dokumentációs weboldalra, ahol a súgóoldalak karbantartása és fordítása történik."
 
-#: ../libxfce4ui/xfce-dialogs.c:291
+#: ../libbladeui/xfce-dialogs.c:291
 msgid "_Read Online"
 msgstr "_Online olvasás"
 
-#: ../libxfce4ui/xfce-dialogs.c:300
+#: ../libbladeui/xfce-dialogs.c:300
 msgid "_Always go directly to the online documentation"
 msgstr "Közvetlenül az online _dokumentáció megnyitása mindig"
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Information"
 msgstr "Információ"
 
-#: ../libxfce4ui/xfce-dialogs.c:358 ../libxfce4ui/xfce-dialogs.c:401
-#: ../libxfce4ui/xfce-dialogs.c:445
+#: ../libbladeui/xfce-dialogs.c:358 ../libbladeui/xfce-dialogs.c:401
+#: ../libbladeui/xfce-dialogs.c:445
 msgid "Close"
 msgstr "Bezárás"
 
-#: ../libxfce4ui/xfce-dialogs.c:391
+#: ../libbladeui/xfce-dialogs.c:391
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
-#: ../libxfce4ui/xfce-dialogs.c:435
+#: ../libbladeui/xfce-dialogs.c:435
 msgid "Error"
 msgstr "Hiba"
 
-#: ../libxfce4ui/xfce-dialogs.c:494
+#: ../libbladeui/xfce-dialogs.c:494
 msgid "No"
 msgstr "Nem"
 
-#: ../libxfce4ui/xfce-dialogs.c:496
+#: ../libbladeui/xfce-dialogs.c:496
 msgid "Yes"
 msgstr "Igen"
 
-#: ../libxfce4ui/xfce-dialogs.c:504
+#: ../libbladeui/xfce-dialogs.c:504
 #: ../libxfce4kbd-private/xfce-shortcuts-xfwm4.c:41
 msgid "Cancel"
 msgstr "Mégse"
 
-#: ../libxfce4ui/xfce-dialogs.c:511 ../libxfce4ui/xfce-dialogs.c:519
+#: ../libbladeui/xfce-dialogs.c:511 ../libbladeui/xfce-dialogs.c:519
 msgid "Question"
 msgstr "Kérdés"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "Session management client ID"
 msgstr "Munkamenet-kezelés kliens ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "ID"
 msgstr "Azonosító"
 
-#: ../libxfce4ui/xfce-sm-client.c:1425
+#: ../libbladeui/xfce-sm-client.c:1425
 msgid "Disable session management"
 msgstr "Munkamenet-kezelés letiltása"
 
-#: ../libxfce4ui/xfce-sm-client.c:1435
+#: ../libbladeui/xfce-sm-client.c:1435
 msgid "Session management options"
 msgstr "Munkamenet-kezelés beállítások"
 
-#: ../libxfce4ui/xfce-sm-client.c:1436
+#: ../libbladeui/xfce-sm-client.c:1436
 msgid "Show session management options"
 msgstr "Munkamenet-kezelés beállításainak megjelenítése"
 
-#: ../libxfce4ui/xfce-sm-client.c:1611
+#: ../libbladeui/xfce-sm-client.c:1611
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr "A munkamenet-kezelőhöz való csatlakozás meghiúsult: %s"
 
-#: ../libxfce4ui/xfce-sm-client.c:1617
+#: ../libbladeui/xfce-sm-client.c:1617
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr "A munkamenet-kezelő nem adott vissza érvényes kliensazonosítót"
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:421
+#: ../libbladeui/xfce-spawn.c:421
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning "
@@ -530,15 +530,15 @@ msgstr "Utolsó munkaterület törlése"
 msgid "Delete active workspace"
 msgstr "Aktív munkaterület törlése"
 
-#: ../glade/libxfce4ui.xml.in.h:1 ../glade/libxfce4ui-2.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1 ../glade/libbladeui-2.xml.in.h:1
 msgid "Titled Dialog"
 msgstr "Címzett ablak"
 
-#: ../glade/libxfce4ui.xml.in.h:2 ../glade/libxfce4ui-2.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2 ../glade/libbladeui-2.xml.in.h:2
 msgid "Subtitle"
 msgstr "Felirat"
 
-#: ../glade/libxfce4ui.xml.in.h:3 ../glade/libxfce4ui-2.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3 ../glade/libbladeui-2.xml.in.h:3
 msgid "Xfce 4 Widgets"
 msgstr "Xfce 4 felületi elemek"
 
@@ -555,8 +555,8 @@ msgid "Handles the placement of windows on the screen."
 msgstr "Az ablakok elhelyezésének kezelése a képernyőn."
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
-msgstr "Panel"
+msgid "Bar"
+msgstr "Bar"
 
 #: ../xfce4-about/main.c:75
 msgid ""
@@ -589,8 +589,8 @@ msgid "Volume manager"
 msgstr "Kötetkezelő"
 
 #: ../xfce4-about/main.c:90
-msgid "Automatic management of removable drives and media for Thunar."
-msgstr "Cserélhető meghajtók és adathordozók automatikus kezelése a Thunar által"
+msgid "Automatic management of removable drives and media for Fmb."
+msgstr "Cserélhető meghajtók és adathordozók automatikus kezelése a Fmb által"
 
 #: ../xfce4-about/main.c:93
 msgid "Session Manager"
@@ -694,20 +694,20 @@ msgstr "Az Xfce szerzői joga Olivier Fourdant (fourdan@xfce.org) illeti. A tov�
 
 #: ../xfce4-about/main.c:294
 msgid ""
-"The libxfce4ui, libxfce4util and exo packages are distributed under the "
+"The libbladeui, libbladeutil and blxo packages are distributed under the "
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "A libxfce4ui, libxfce4util és exo csomagok a Free Software Foundation által kiadott GNU Library General Public License második (vagy bármely későbbi) változatában foglaltak alapján kerülnek terjesztésre."
+msgstr "A libbladeui, libbladeutil és blxo csomagok a Free Software Foundation által kiadott GNU Library General Public License második (vagy bármely későbbi) változatában foglaltak alapján kerülnek terjesztésre."
 
 #: ../xfce4-about/main.c:301
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, "
-"xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, "
+"blade-settings, blconf, xfdesktop and xfwm4 are distributed under the terms "
 "of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
-msgstr "A thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfdesktop és xfwm4 csomagok a Free Software Foundation által kiadott GNU General Public License második (vagy bármely későbbi) változatában foglaltak alapján kerülnek terjesztésre."
+msgstr "A fmb, xfce4-appfinder, blade-bar, xfce4-session, blade-settings, blconf, xfdesktop és xfwm4 csomagok a Free Software Foundation által kiadott GNU General Public License második (vagy bármely későbbi) változatában foglaltak alapján kerülnek terjesztésre."
 
 #: ../xfce4-about/main.c:448
 #, c-format
@@ -819,10 +819,10 @@ msgid ""
 msgstr "A(z) „%s” fájl már létezik a könyvtárban, a fájl nem került hozzáadásra."
 
 #: ../tests/test-ui.c:149
-msgid "Failed to migrate the old panel configuration"
-msgstr "A panel régi beállításainak átköltöztetése meghiúsult"
+msgid "Failed to migrate the old bar configuration"
+msgstr "A bar régi beállításainak átköltöztetése meghiúsult"
 
 #: ../tests/test-ui.c:202 ../tests/test-ui.c:222 ../tests/test-ui.c:251
 #: ../tests/test-ui.c:273
-msgid "Customize settings stored by Xfconf"
-msgstr "Az Xfconf által tárolt beállítások személyre szabása"
+msgid "Customize settings stored by Blconf"
+msgstr "Az Blconf által tárolt beállítások személyre szabása"

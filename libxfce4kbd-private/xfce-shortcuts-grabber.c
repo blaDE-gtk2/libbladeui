@@ -34,7 +34,7 @@
 
 #include <gtk/gtk.h>
 
-#include <libxfce4util/libxfce4util.h>
+#include <libbladeutil/libbladeutil.h>
 
 #include <libxfce4kbd-private/xfce-shortcuts-grabber.h>
 #include <libxfce4kbd-private/xfce-shortcuts-marshal.h>

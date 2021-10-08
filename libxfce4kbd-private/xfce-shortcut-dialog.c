@@ -26,8 +26,8 @@
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
 
-#include <libxfce4util/libxfce4util.h>
-#include <libxfce4ui/libxfce4ui.h>
+#include <libbladeutil/libbladeutil.h>
+#include <libbladeui/libbladeui.h>
 
 #include <libxfce4kbd-private/xfce-shortcuts.h>
 #include <libxfce4kbd-private/xfce-shortcut-dialog.h>
@@ -124,7 +124,7 @@ xfce_shortcut_dialog_class_init (XfceShortcutDialogClass *klass)
 {
   GObjectClass *gobject_class;
 
-  /* Make sure to use the translations from libxfce4ui */
+  /* Make sure to use the translations from libbladeui */
   xfce_textdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
 
   gobject_class = G_OBJECT_CLASS (klass);

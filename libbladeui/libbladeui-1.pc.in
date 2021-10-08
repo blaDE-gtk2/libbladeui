@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libbladeui
+Description: Widgets library for Xfce
+Requires: gtk+-2.0 libbladeutil-1.0
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lxfce4ui-@LIBBLADEUI_VERSION_API@
+Cflags: -I${includedir}/xfce4/libbladeui-@LIBBLADEUI_VERSION_API@

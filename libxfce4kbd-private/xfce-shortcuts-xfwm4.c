@@ -21,7 +21,7 @@
 #include <config.h>
 #endif
 
-#include <libxfce4util/libxfce4util.h>
+#include <libbladeutil/libbladeutil.h>
 #include <libxfce4kbd-private/xfce-shortcuts-xfwm4.h>
 
 typedef struct _ShortcutTemplate ShortcutTemplate;
@@ -119,7 +119,7 @@ xfce_shortcuts_xfwm4_get_feature_name (const gchar *feature)
 {
   guint i;
 
-  /* Make sure to use the translations from libxfce4ui */
+  /* Make sure to use the translations from libbladeui */
   xfce_textdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
 
   /* We need to get the human readable string of the action name */

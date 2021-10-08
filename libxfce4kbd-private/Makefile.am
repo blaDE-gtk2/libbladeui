@@ -3,6 +3,7 @@
 if ENABLE_KEYBOARD_LIBRARY
 
 AM_CPPFLAGS = \
+	-DGLIB_DISABLE_DEPRECATION_WARNINGS \
 	-I$(top_builddir) \
 	-I$(top_srcdir) \
 	-DDATADIR=\"$(datadir)\" \
@@ -48,8 +49,8 @@ libxfce4kbd_private_3_la_CFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(GTK3_CFLAGS) \
 	$(LIBX11_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
-	$(XFCONF_CFLAGS) \
+	$(LIBBLADEUTIL_CFLAGS) \
+	$(BLCONF_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
 libxfce4kbd_private_3_la_LDFLAGS = \
@@ -61,14 +62,14 @@ libxfce4kbd_private_3_la_LDFLAGS = \
 	$(PLATFORM_LDFLAGS)
 
 libxfce4kbd_private_3_la_LIBADD = \
-	$(top_builddir)/libxfce4ui/libxfce4ui-2.la \
+	$(top_builddir)/libbladeui/libbladeui-2.la \
 	$(GLIB_LIBS) \
 	$(GTK3_LIBS) \
 	$(LIBX11_LIBS) \
-	$(LIBXFCE4UTIL_LIBS) \
-	$(XFCONF_LIBS)
+	$(LIBBLADEUTIL_LIBS) \
+	$(BLCONF_LIBS)
 
-settingsdir = $(sysconfdir)/xdg/xfce4/xfconf/xfce-perchannel-xml
+settingsdir = $(sysconfdir)/xdg/xfce4/blconf/xfce-perchannel-xml
 settings_DATA = xfce4-keyboard-shortcuts.xml
 
 pkgconfigdir = $(libdir)/pkgconfig
@@ -94,8 +95,8 @@ libxfce4kbd_private_2_la_CFLAGS = \
 	$(GLIB_CFLAGS) \
 	$(GTK2_CFLAGS) \
 	$(LIBX11_CFLAGS) \
-	$(LIBXFCE4UTIL_CFLAGS) \
-	$(XFCONF_CFLAGS) \
+	$(LIBBLADEUTIL_CFLAGS) \
+	$(BLCONF_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
 libxfce4kbd_private_2_la_LDFLAGS = \
@@ -107,12 +108,12 @@ libxfce4kbd_private_2_la_LDFLAGS = \
 	$(PLATFORM_LDFLAGS)
 
 libxfce4kbd_private_2_la_LIBADD = \
-	$(top_builddir)/libxfce4ui/libxfce4ui-$(LIBXFCE4UI_VERSION_API).la \
+	$(top_builddir)/libbladeui/libbladeui-$(LIBBLADEUI_VERSION_API).la \
 	$(GLIB_LIBS) \
 	$(GTK2_LIBS) \
 	$(LIBX11_LIBS) \
-	$(LIBXFCE4UTIL_LIBS) \
-	$(XFCONF_LIBS)
+	$(LIBBLADEUTIL_LIBS) \
+	$(BLCONF_LIBS)
 
 
 pkgconfig_DATA += libxfce4kbd-private-2.pc

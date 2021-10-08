@@ -29,8 +29,8 @@
 #include <glib.h>
 #include <glib-object.h>
 
-#include <libxfce4util/libxfce4util.h>
-#include <xfconf/xfconf.h>
+#include <libbladeutil/libbladeutil.h>
+#include <blconf/blconf.h>
 
 #include <libxfce4kbd-private/xfce-shortcuts-provider.h>
 
@@ -65,7 +65,7 @@ static void xfce_shortcuts_provider_set_property     (GObject                   
                                                       const GValue               *value,
                                                       GParamSpec                 *pspec);
 static void xfce_shortcuts_provider_register         (XfceShortcutsProvider      *provider);
-static void xfce_shortcuts_provider_property_changed (XfconfChannel              *channel,
+static void xfce_shortcuts_provider_property_changed (BlconfChannel              *channel,
                                                       gchar                      *property,
                                                       GValue                     *value,
                                                       XfceShortcutsProvider      *provider);
@@ -74,7 +74,7 @@ static void xfce_shortcuts_provider_property_changed (XfconfChannel             
 
 struct _XfceShortcutsProviderPrivate
 {
-  XfconfChannel *channel;
+  BlconfChannel *channel;
   gchar         *name;
   gchar         *default_base_property;
   gchar         *custom_base_property;
@@ -147,7 +147,7 @@ xfce_shortcuts_provider_init (XfceShortcutsProvider *provider)
 {
   provider->priv = XFCE_SHORTCUTS_PROVIDER_GET_PRIVATE (provider);
 
-  provider->priv->channel = xfconf_channel_new ("xfce4-keyboard-shortcuts");
+  provider->priv->channel = blconf_channel_new ("xfce4-keyboard-shortcuts");
 
   g_signal_connect (provider->priv->channel, "property-changed",
                     G_CALLBACK (xfce_shortcuts_provider_property_changed), provider);
@@ -246,7 +246,7 @@ xfce_shortcuts_provider_register (XfceShortcutsProvider *provider)
   if (G_UNLIKELY (name == NULL))
     return;
 
-  provider_names = xfconf_channel_get_string_list (provider->priv->channel, "/providers");
+  provider_names = blconf_channel_get_string_list (provider->priv->channel, "/providers");
   if (provider_names != NULL)
     for (i = 0; !already_registered && provider_names[i] != NULL; i++)
       already_registered = g_str_equal (provider_names[i], name);
@@ -263,7 +263,7 @@ xfce_shortcuts_provider_register (XfceShortcutsProvider *provider)
       names[i++] = (gchar *) name;
       names[i] = NULL;
 
-      xfconf_channel_set_string_list (provider->priv->channel, "/providers",
+      blconf_channel_set_string_list (provider->priv->channel, "/providers",
                                       (const gchar * const *) names);
 
       g_free (names);
@@ -275,7 +275,7 @@ xfce_shortcuts_provider_register (XfceShortcutsProvider *provider)
 
 
 static void
-xfce_shortcuts_provider_property_changed (XfconfChannel         *channel,
+xfce_shortcuts_provider_property_changed (BlconfChannel         *channel,
                                           gchar                 *property,
                                           GValue                *value,
                                           XfceShortcutsProvider *provider)
@@ -324,12 +324,12 @@ GList *
 xfce_shortcuts_provider_get_providers (void)
 {
   GList         *providers = NULL;
-  XfconfChannel *channel;
+  BlconfChannel *channel;
   gchar        **names;
   gint           i;
 
-  channel = xfconf_channel_get ("xfce4-keyboard-shortcuts");
-  names = xfconf_channel_get_string_list (channel, "/providers");
+  channel = blconf_channel_get ("xfce4-keyboard-shortcuts");
+  names = blconf_channel_get_string_list (channel, "/providers");
 
   if (G_LIKELY (names != NULL))
     {
@@ -372,10 +372,10 @@ xfce_shortcuts_provider_is_custom (XfceShortcutsProvider *provider)
   gboolean override;
 
   g_return_val_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider), FALSE);
-  g_return_val_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel), FALSE);
+  g_return_val_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel), FALSE);
 
   property = g_strconcat (provider->priv->custom_base_property, "/override", NULL);
-  override = xfconf_channel_get_bool (provider->priv->channel, property, FALSE);
+  override = blconf_channel_get_bool (provider->priv->channel, property, FALSE);
   g_free (property);
 
   return override;
@@ -387,11 +387,11 @@ void
 xfce_shortcuts_provider_reset_to_defaults (XfceShortcutsProvider *provider)
 {
   g_return_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider));
-  g_return_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel));
+  g_return_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel));
 
   DBG ("property = %s", provider->priv->custom_base_property);
 
-  xfconf_channel_reset_property (provider->priv->channel, provider->priv->custom_base_property, TRUE);
+  blconf_channel_reset_property (provider->priv->channel, provider->priv->custom_base_property, TRUE);
   xfce_shortcuts_provider_clone_defaults (provider);
 }
 
@@ -407,7 +407,7 @@ _xfce_shortcuts_provider_clone_default (const gchar           *property,
   gchar       *custom_property;
 
   g_return_val_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider), TRUE);
-  g_return_val_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel), TRUE);
+  g_return_val_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel), TRUE);
 
   if (G_UNLIKELY (!G_IS_VALUE (value)))
     return FALSE;
@@ -418,7 +418,7 @@ _xfce_shortcuts_provider_clone_default (const gchar           *property,
   DBG ("shortcut = %s, command = %s", shortcut, command);
 
   custom_property = g_strconcat (provider->priv->custom_base_property, "/", shortcut, NULL);
-  xfconf_channel_set_property (provider->priv->channel, custom_property, value);
+  blconf_channel_set_property (provider->priv->channel, custom_property, value);
   g_free (custom_property);
 
   return FALSE;
@@ -433,10 +433,10 @@ xfce_shortcuts_provider_clone_defaults (XfceShortcutsProvider *provider)
   gchar      *property;
 
   g_return_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider));
-  g_return_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel));
+  g_return_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel));
 
   /* Get default command shortcuts */
-  properties = xfconf_channel_get_properties (provider->priv->channel, provider->priv->default_base_property);
+  properties = blconf_channel_get_properties (provider->priv->channel, provider->priv->default_base_property);
 
   if (G_LIKELY (properties != NULL))
     {
@@ -452,7 +452,7 @@ xfce_shortcuts_provider_clone_defaults (XfceShortcutsProvider *provider)
 
   /* Add the override property */
   property = g_strconcat (provider->priv->custom_base_property, "/override", NULL);
-  xfconf_channel_set_bool (provider->priv->channel, property, TRUE);
+  blconf_channel_set_bool (provider->priv->channel, property, TRUE);
   g_free (property);
 }
 
@@ -516,9 +516,9 @@ xfce_shortcuts_provider_get_shortcuts (XfceShortcutsProvider *provider)
   GHashTable                  *properties;
 
   g_return_val_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider), NULL);
-  g_return_val_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel), NULL);
+  g_return_val_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel), NULL);
 
-  properties = xfconf_channel_get_properties (provider->priv->channel, provider->priv->custom_base_property);
+  properties = blconf_channel_get_properties (provider->priv->channel, provider->priv->custom_base_property);
 
   context.provider = provider;
   context.list = NULL;
@@ -546,7 +546,7 @@ xfce_shortcuts_provider_get_shortcut (XfceShortcutsProvider *provider,
   gboolean      snotify;
 
   g_return_val_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider), NULL);
-  g_return_val_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel), NULL);
+  g_return_val_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel), NULL);
 
   if (G_LIKELY (xfce_shortcuts_provider_is_custom (provider)))
     base_property = provider->priv->custom_base_property;
@@ -554,12 +554,12 @@ xfce_shortcuts_provider_get_shortcut (XfceShortcutsProvider *provider,
     base_property = provider->priv->default_base_property;
 
   property = g_strconcat (base_property, "/", shortcut, NULL);
-  command = xfconf_channel_get_string (provider->priv->channel, property, NULL);
+  command = blconf_channel_get_string (provider->priv->channel, property, NULL);
 
   if (G_LIKELY (command != NULL))
     {
       property2 = g_strconcat (property, "/startup-notify", NULL);
-      snotify = xfconf_channel_get_bool (provider->priv->channel, property2, FALSE);
+      snotify = blconf_channel_get_bool (provider->priv->channel, property2, FALSE);
 
       sc = g_slice_new0 (XfceShortcut);
       sc->command = command;
@@ -584,7 +584,7 @@ xfce_shortcuts_provider_has_shortcut (XfceShortcutsProvider *provider,
   gchar   *property;
 
   g_return_val_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider), FALSE);
-  g_return_val_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel), FALSE);
+  g_return_val_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel), FALSE);
 
   if (G_LIKELY (xfce_shortcuts_provider_is_custom (provider)))
     base_property = provider->priv->custom_base_property;
@@ -592,13 +592,13 @@ xfce_shortcuts_provider_has_shortcut (XfceShortcutsProvider *provider,
     base_property = provider->priv->default_base_property;
 
   property = g_strconcat (base_property, "/", shortcut, NULL);
-  has_property = xfconf_channel_has_property (provider->priv->channel, property);
+  has_property = blconf_channel_has_property (provider->priv->channel, property);
   g_free (property);
 
   if (!has_property && g_strrstr (shortcut, "<Primary>"))
     {
       /* We want to match a shortcut with <Primary>. Older versions of
-       * GTK+ used <Control> and this might be stored in Xfconf. We need
+       * GTK+ used <Control> and this might be stored in Blconf. We need
        * to check for this too. */
 
       const gchar *primary;
@@ -610,7 +610,7 @@ xfce_shortcuts_provider_has_shortcut (XfceShortcutsProvider *provider,
       primary = "Primary";
 
       /* Replace Primary in the string by Control using the same logic
-       * as exo_str_replace. */
+       * as blxo_str_replace. */
 
       while (*shortcut != '\0')
         {
@@ -639,7 +639,7 @@ xfce_shortcuts_provider_has_shortcut (XfceShortcutsProvider *provider,
 
       property =
         g_strconcat (base_property, "/", with_control_shortcut, NULL);
-      has_property = xfconf_channel_has_property (provider->priv->channel, property);
+      has_property = blconf_channel_has_property (provider->priv->channel, property);
       g_free (property);
 
       g_free (with_control_shortcut);
@@ -660,7 +660,7 @@ xfce_shortcuts_provider_set_shortcut (XfceShortcutsProvider *provider,
   gchar *property2;
 
   g_return_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider));
-  g_return_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel));
+  g_return_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel));
   g_return_if_fail (shortcut != NULL && command != NULL);
 
   /* Only allow custom shortcuts to be changed */
@@ -669,17 +669,17 @@ xfce_shortcuts_provider_set_shortcut (XfceShortcutsProvider *provider,
 
   property = g_strconcat (provider->priv->custom_base_property, "/", shortcut, NULL);
 
-  if (xfconf_channel_has_property (provider->priv->channel, property))
-    xfconf_channel_reset_property (provider->priv->channel, property, TRUE);
+  if (blconf_channel_has_property (provider->priv->channel, property))
+    blconf_channel_reset_property (provider->priv->channel, property, TRUE);
 
   if (snotify)
     {
       property2 = g_strconcat (property, "/startup-notify", NULL);
-      xfconf_channel_set_bool (provider->priv->channel, property2, snotify);
+      blconf_channel_set_bool (provider->priv->channel, property2, snotify);
       g_free (property2);
     }
 
-  xfconf_channel_set_string (provider->priv->channel, property, command);
+  blconf_channel_set_string (provider->priv->channel, property, command);
 
   g_free (property);
 
@@ -694,14 +694,14 @@ xfce_shortcuts_provider_reset_shortcut (XfceShortcutsProvider *provider,
   gchar *property;
 
   g_return_if_fail (XFCE_IS_SHORTCUTS_PROVIDER (provider));
-  g_return_if_fail (XFCONF_IS_CHANNEL (provider->priv->channel));
+  g_return_if_fail (BLCONF_IS_CHANNEL (provider->priv->channel));
   g_return_if_fail (shortcut != NULL);
 
   property = g_strconcat (provider->priv->custom_base_property, "/", shortcut, NULL);
 
   DBG ("property = %s", property);
 
-  xfconf_channel_reset_property (provider->priv->channel, property, FALSE);
+  blconf_channel_reset_property (provider->priv->channel, property, FALSE);
   g_free (property);
 }
 

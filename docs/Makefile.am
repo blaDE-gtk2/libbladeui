@@ -1,7 +1,7 @@
 AUTOMAKE_OPTIONS = 1.11
 
 # The name of the module.
-DOC_MODULE=libxfce4ui
+DOC_MODULE=libbladeui
 
 # The top-level SGML file.
 DOC_MAIN_SGML_FILE=$(DOC_MODULE)-docs.xml
@@ -13,7 +13,7 @@ SCAN_OPTIONS=--deprecated-guards="XFCE_DISABLE_DEPRECATED"
 SCANGOBJ_OPTIONS=
 
 # The directory containing the source code. Relative to $(srcdir)
-DOC_SOURCE_DIR=../libxfce4ui
+DOC_SOURCE_DIR=../libbladeui
 
 # Extra options to supply to gtkdoc-mkdb
 MKDB_OPTIONS=--sgml-mode --output-format=xml
@@ -22,19 +22,19 @@ MKDB_OPTIONS=--sgml-mode --output-format=xml
 FIXXREF_OPTIONS=
 
 # Used for dependencies
-HFILE_GLOB=$(top_srcdir)/libxfce4ui/*.h
-CFILE_GLOB=$(top_srcdir)/libxfce4ui/*.c
+HFILE_GLOB=$(top_srcdir)/libbladeui/*.h
+CFILE_GLOB=$(top_srcdir)/libbladeui/*.c
 
 # Header files to ignore when scanning
 IGNORE_HFILES=								\
-	libxfce4ui.h							\
-	libxfce4ui-private.h						\
+	libbladeui.h							\
+	libbladeui-private.h						\
 	xfce-heading.h							\
-	libxfce4ui-enum-types.h						\
-	libxfce4ui-alias.h						\
-	stamp-libxfce4ui-marshal.h					\
-	libxfce4ui-marshal.h						\
-	libxfce4ui-resources.h
+	libbladeui-enum-types.h						\
+	libbladeui-alias.h						\
+	stamp-libbladeui-marshal.h					\
+	libbladeui-marshal.h						\
+	libbladeui-resources.h
 
 # Extra files to add when scanning (relative to $srcdir)
 EXTRA_HFILES=
@@ -49,16 +49,17 @@ content_files = 							\
 # CFLAGS and LDFLAGS for compiling scan program. Only needed
 # if $(DOC_MODULE).types is non-empty.
 AM_CPPFLAGS =	 							\
+	-DGLIB_DISABLE_DEPRECATION_WARNINGS \
 	-I$(top_srcdir) 						\
 	-I$(top_builddir) 						\
-	$(LIBXFCE4UTIL_CFLAGS)						\
+	$(LIBBLADEUTIL_CFLAGS)						\
 	$(GTK2_CFLAGS)	 						\
 	$(GTK_DOC_EXTRA_CFLAGS)
 
 GTKDOC_LIBS =  								\
-	$(LIBXFCE4UTIL_LIBS)						\
+	$(LIBBLADEUTIL_LIBS)						\
 	$(GTK2_LIBS)							\
-	$(top_builddir)/libxfce4ui/libxfce4ui-$(LIBXFCE4UI_VERSION_API).la
+	$(top_builddir)/libbladeui/libbladeui-$(LIBBLADEUI_VERSION_API).la
 
 include $(top_srcdir)/gtk-doc.make
 

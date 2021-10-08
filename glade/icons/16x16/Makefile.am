@@ -1,13 +1,13 @@
 if HAVE_GLADEUI
 iconsdir = $(GLADEUI_PIXMAPDIR)/hicolor/16x16/actions
-icons_DATA = widget-libxfce4ui-xfce-titled-dialog.png
+icons_DATA = widget-libbladeui-xfce-titled-dialog.png
 endif
 
 if HAVE_GLADEUI2
 iconsdir = $(GLADEUI2_PIXMAPDIR)/hicolor/16x16/actions
-icons_DATA = widget-libxfce4ui-xfce-titled-dialog.png
+icons_DATA = widget-libbladeui-xfce-titled-dialog.png
 endif
 
-EXTRA_DIST = widget-libxfce4ui-xfce-titled-dialog.png
+EXTRA_DIST = widget-libbladeui-xfce-titled-dialog.png
 
 # vi:set ts=8 sw=8 noet ai nocindent syntax=automake:

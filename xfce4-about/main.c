@@ -25,8 +25,8 @@
 #endif
 
 #include <gtk/gtk.h>
-#include <libxfce4util/libxfce4util.h>
-#include <libxfce4ui/libxfce4ui.h>
+#include <libbladeutil/libbladeutil.h>
+#include <libbladeui/libbladeui.h>
 
 #include "contributors.h"
 #include "translators.h"
@@ -70,8 +70,8 @@ xfce_about_about (GtkTextBuffer *buffer)
         N_("Window Manager"),
         N_("Handles the placement of windows on the screen.")
       },
-      { "xfce4-panel",
-        N_("Panel"),
+      { "blade-bar",
+        N_("Bar"),
         N_("Program launchers, window buttons, applications menu, "
            "workspace switcher and more.")
       },
@@ -80,21 +80,21 @@ xfce_about_about (GtkTextBuffer *buffer)
         N_("Sets the background color or image with optional application menu "
            "or icons for minimized applications or launchers, devices and folders.")
       },
-      { "thunar",
+      { "fmb",
         N_("File Manager"),
         N_("A modern file manager for the Unix/Linux desktop, aiming to "
            "be easy-to-use and fast.")
       },
-      { "thunar-volman",
+      { "fmb-volman",
         N_("Volume manager"),
-        N_("Automatic management of removable drives and media for Thunar.")
+        N_("Automatic management of removable drives and media for Fmb.")
       },
       { "xfce4-session",
         N_("Session Manager"),
         N_("Restores your session on startup and allows you to shutdown "
            "the computer from Xfce.")
       },
-      { "xfce4-settings",
+      { "blade-settings",
         N_("Setting System"),
         N_("Configuration system to control various aspects of the desktop "
            "like appearance, display, keyboard and mouse settings.")
@@ -104,11 +104,11 @@ xfce_about_about (GtkTextBuffer *buffer)
         N_("Shows the applications installed on your system in categories, "
            "so you can quickly find and launch them.")
       },
-      { "xfconf",
+      { "blconf",
         N_("Settings Daemon"),
         N_("D-Bus-based configuration storage system.")
       },
-      { "garcon",
+      { "pojk",
         N_("A menu library"),
         N_("A freedesktop.org compliant menu implementation based "
            "on GLib and GIO.")
@@ -291,15 +291,15 @@ xfce_about_copyright (GtkTextBuffer *buffer)
 
   gtk_text_buffer_insert (buffer, &end, "\n\n", -1);
   gtk_text_buffer_insert (buffer, &end,
-      _("The libxfce4ui, libxfce4util and exo packages are "
+      _("The libbladeui, libbladeutil and blxo packages are "
         "distributed under the terms of the GNU Library General Public License as "
         "published by the Free Software Foundation; either version 2 of the License, or "
         "(at your option) any later version."), -1);
 
   gtk_text_buffer_insert (buffer, &end, "\n\n", -1);
   gtk_text_buffer_insert (buffer, &end,
-      _("The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, "
-        "xfce4-settings, xfconf, xfdesktop and xfwm4 are "
+      _("The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, "
+        "blade-settings, blconf, xfdesktop and xfwm4 are "
         "distributed under the terms of the GNU General Public License as "
         "published by the Free Software Foundation; either version 2 of the "
         "License, or (at your option) any later version."), -1);

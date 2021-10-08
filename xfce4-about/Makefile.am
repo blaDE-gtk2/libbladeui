@@ -1,5 +1,6 @@
 
 AM_CPPFLAGS = \
+	-DGLIB_DISABLE_DEPRECATION_WARNINGS \
 	-I$(top_srcdir) \
 	-DG_LOG_DOMAIN=\"xfce4-about\" \
 	-DDATADIR=\"$(datadir)/xfce4\" \
@@ -19,17 +20,17 @@ xfce4_about_SOURCES = \
 	main.c
 
 xfce4_about_CFLAGS = \
-	$(LIBXFCE4UTIL_CFLAGS) \
+	$(LIBBLADEUTIL_CFLAGS) \
 	$(GTK3_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
 xfce4_about_LDADD = \
-	$(top_builddir)/libxfce4ui/libxfce4ui-2.la \
-	$(LIBXFCE4UTIL_LIBS) \
+	$(top_builddir)/libbladeui/libbladeui-2.la \
+	$(LIBBLADEUTIL_LIBS) \
 	$(GTK3_LIBS)
 
 xfce4_about_DEPENDENCIES = \
-	$(top_builddir)/libxfce4ui/libxfce4ui-2.la
+	$(top_builddir)/libbladeui/libbladeui-2.la
 
 desktopdir = $(datadir)/applications
 desktop_in_files = xfce4-about.desktop.in

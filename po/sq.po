@@ -11,110 +11,110 @@ msgstr ""
 "POT-Creation-Date: 2019-05-17 00:30+0200\n"
 "PO-Revision-Date: 2019-05-24 12:16+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
-"Language-Team: Albanian (http://www.transifex.com/xfce/libxfce4ui/language/sq/)\n"
+"Language-Team: Albanian (http://www.transifex.com/xfce/libbladeui/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:110
+#: ../libbladeui/xfce-dialogs.c:110
 msgid "Failed to open web browser for online documentation"
 msgstr "S’u arrit të hapej shfletuesi për dokumentimin në internet"
 
-#: ../libxfce4ui/xfce-dialogs.c:265
+#: ../libbladeui/xfce-dialogs.c:265
 #, c-format
 msgid "Do you want to read the %s manual online?"
-msgstr "Doni ta lexoni doracakun e %s në internet?"
+msgstr "Doni ta lblxoni doracakun e %s në internet?"
 
-#: ../libxfce4ui/xfce-dialogs.c:267
+#: ../libbladeui/xfce-dialogs.c:267
 msgid "Do you want to read the manual online?"
-msgstr "Doni ta lexoni doracakun në internet?"
+msgstr "Doni ta lblxoni doracakun në internet?"
 
-#: ../libxfce4ui/xfce-dialogs.c:270
+#: ../libbladeui/xfce-dialogs.c:270
 msgid "Online Documentation"
 msgstr "Dokumentim në Internet"
 
-#: ../libxfce4ui/xfce-dialogs.c:277
+#: ../libbladeui/xfce-dialogs.c:277
 msgid ""
 "You will be redirected to the documentation website where the help pages are"
 " maintained and translated."
 msgstr "Do të ridrejtoheni te sajti i dokumentimit, ku mirëmbahen dhe përkthehen faqet e ndihmës."
 
-#: ../libxfce4ui/xfce-dialogs.c:291
+#: ../libbladeui/xfce-dialogs.c:291
 msgid "_Read Online"
-msgstr "_Lexojeni Në Internet"
+msgstr "_Lblxojeni Në Internet"
 
-#: ../libxfce4ui/xfce-dialogs.c:300
+#: ../libbladeui/xfce-dialogs.c:300
 msgid "_Always go directly to the online documentation"
 msgstr "Kalo _përherë drejt e te dokumentimi në internet"
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Information"
 msgstr "Të dhëna"
 
-#: ../libxfce4ui/xfce-dialogs.c:358 ../libxfce4ui/xfce-dialogs.c:401
-#: ../libxfce4ui/xfce-dialogs.c:445
+#: ../libbladeui/xfce-dialogs.c:358 ../libbladeui/xfce-dialogs.c:401
+#: ../libbladeui/xfce-dialogs.c:445
 msgid "Close"
 msgstr "Mbylle"
 
-#: ../libxfce4ui/xfce-dialogs.c:391
+#: ../libbladeui/xfce-dialogs.c:391
 msgid "Warning"
 msgstr "Kujdes"
 
-#: ../libxfce4ui/xfce-dialogs.c:435
+#: ../libbladeui/xfce-dialogs.c:435
 msgid "Error"
 msgstr "Gabim"
 
-#: ../libxfce4ui/xfce-dialogs.c:494
+#: ../libbladeui/xfce-dialogs.c:494
 msgid "No"
 msgstr "Jo"
 
-#: ../libxfce4ui/xfce-dialogs.c:496
+#: ../libbladeui/xfce-dialogs.c:496
 msgid "Yes"
 msgstr "Po"
 
-#: ../libxfce4ui/xfce-dialogs.c:504
+#: ../libbladeui/xfce-dialogs.c:504
 #: ../libxfce4kbd-private/xfce-shortcuts-xfwm4.c:41
 msgid "Cancel"
 msgstr "Anuloje"
 
-#: ../libxfce4ui/xfce-dialogs.c:511 ../libxfce4ui/xfce-dialogs.c:519
+#: ../libbladeui/xfce-dialogs.c:511 ../libbladeui/xfce-dialogs.c:519
 msgid "Question"
 msgstr "Pyetje"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "Session management client ID"
 msgstr "ID klienti administrimi sesioni"
 
-#: ../libxfce4ui/xfce-sm-client.c:1424
+#: ../libbladeui/xfce-sm-client.c:1424
 msgid "ID"
 msgstr "ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1425
+#: ../libbladeui/xfce-sm-client.c:1425
 msgid "Disable session management"
 msgstr "Çaktivizo administrim sesionesh"
 
-#: ../libxfce4ui/xfce-sm-client.c:1435
+#: ../libbladeui/xfce-sm-client.c:1435
 msgid "Session management options"
 msgstr "Mundësi administrimi sesioni"
 
-#: ../libxfce4ui/xfce-sm-client.c:1436
+#: ../libbladeui/xfce-sm-client.c:1436
 msgid "Show session management options"
 msgstr "Shfaq mundësi administrimi sesioni"
 
-#: ../libxfce4ui/xfce-sm-client.c:1611
+#: ../libbladeui/xfce-sm-client.c:1611
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr "S’u arrit të lidhej me përgjegjësin e sesioneve: %s"
 
-#: ../libxfce4ui/xfce-sm-client.c:1617
+#: ../libbladeui/xfce-sm-client.c:1617
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr "Përgjegjësi i sesioneve s’u përgjigj me një ID klienti të vlefshme"
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:421
+#: ../libbladeui/xfce-spawn.c:421
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning "
@@ -526,15 +526,15 @@ msgstr "Fshi hapësirën e fundit të punës"
 msgid "Delete active workspace"
 msgstr "Fshi hapësirën aktive të punës"
 
-#: ../glade/libxfce4ui.xml.in.h:1 ../glade/libxfce4ui-2.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1 ../glade/libbladeui-2.xml.in.h:1
 msgid "Titled Dialog"
 msgstr "Dialog Me Titull"
 
-#: ../glade/libxfce4ui.xml.in.h:2 ../glade/libxfce4ui-2.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2 ../glade/libbladeui-2.xml.in.h:2
 msgid "Subtitle"
 msgstr "Nëntitull"
 
-#: ../glade/libxfce4ui.xml.in.h:3 ../glade/libxfce4ui-2.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3 ../glade/libbladeui-2.xml.in.h:3
 msgid "Xfce 4 Widgets"
 msgstr "Widget-e Xfc 4"
 
@@ -551,8 +551,8 @@ msgid "Handles the placement of windows on the screen."
 msgstr "Merret me vendosjen e dritareve në ekran."
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
-msgstr "Panel"
+msgid "Bar"
+msgstr "Bar"
 
 #: ../xfce4-about/main.c:75
 msgid ""
@@ -585,8 +585,8 @@ msgid "Volume manager"
 msgstr "Përgjegjës vëllimesh"
 
 #: ../xfce4-about/main.c:90
-msgid "Automatic management of removable drives and media for Thunar."
-msgstr "Administrim i automatizuar disqesh dhe mediash të heqshme për Thunar-in."
+msgid "Automatic management of removable drives and media for Fmb."
+msgstr "Administrim i automatizuar disqesh dhe mediash të heqshme për Fmb-in."
 
 #: ../xfce4-about/main.c:93
 msgid "Session Manager"
@@ -690,20 +690,20 @@ msgstr "Xfce 4 është e drejtë kopjimi e Olivier Fourdan-it (fourdan@xfce.org)
 
 #: ../xfce4-about/main.c:294
 msgid ""
-"The libxfce4ui, libxfce4util and exo packages are distributed under the "
+"The libbladeui, libbladeutil and blxo packages are distributed under the "
 "terms of the GNU Library General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Paketat libxfce4ui, libxfce4util dhe exo qarkullojnë sipas kushteve të licencës GNU Library General Public License, siç botohet ajo nga Free Software Foundation; versioni 2 i Licencës, ose (në dëshirën tuaj) çfarëdo versioni të mëvonshëm."
+msgstr "Paketat libbladeui, libbladeutil dhe blxo qarkullojnë sipas kushteve të licencës GNU Library General Public License, siç botohet ajo nga Free Software Foundation; versioni 2 i Licencës, ose (në dëshirën tuaj) çfarëdo versioni të mëvonshëm."
 
 #: ../xfce4-about/main.c:301
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, "
-"xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, "
+"blade-settings, blconf, xfdesktop and xfwm4 are distributed under the terms "
 "of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
-msgstr "Paketat thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfdesktop dhe xfwm4 shpërndahen sipas kushteve të licencës GNU General Public License, siç botohet nga Free Software Foundation; versioni 2 i Licencës, ose (në dëshirën tuaj) çfarëdo versioni të mëvonshëm."
+msgstr "Paketat fmb, xfce4-appfinder, blade-bar, xfce4-session, blade-settings, blconf, xfdesktop dhe xfwm4 shpërndahen sipas kushteve të licencës GNU General Public License, siç botohet nga Free Software Foundation; versioni 2 i Licencës, ose (në dëshirën tuaj) çfarëdo versioni të mëvonshëm."
 
 #: ../xfce4-about/main.c:448
 #, c-format
@@ -815,10 +815,10 @@ msgid ""
 msgstr "Ka tashmë në këtë drejtori një kartelë të quajtur \"%s\", kartela s’është shtuar."
 
 #: ../tests/test-ui.c:149
-msgid "Failed to migrate the old panel configuration"
-msgstr "S’u arrit të migrohej formësimi i vjetër i panelit"
+msgid "Failed to migrate the old bar configuration"
+msgstr "S’u arrit të migrohej formësimi i vjetër i barit"
 
 #: ../tests/test-ui.c:202 ../tests/test-ui.c:222 ../tests/test-ui.c:251
 #: ../tests/test-ui.c:273
-msgid "Customize settings stored by Xfconf"
-msgstr "Përshtatni rregullimet e depozituara nga Xfconf-i"
+msgid "Customize settings stored by Blconf"
+msgstr "Përshtatni rregullimet e depozituara nga Blconf-i"

@@ -17,90 +17,90 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:98
+#: ../libbladeui/xfce-dialogs.c:98
 msgid "Failed to open web browser for online documentation"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:213
+#: ../libbladeui/xfce-dialogs.c:213
 #, c-format
 msgid "Do you want to read the %s manual online?"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:215
+#: ../libbladeui/xfce-dialogs.c:215
 msgid "Do you want to read the manual online?"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:218
+#: ../libbladeui/xfce-dialogs.c:218
 msgid "Online Documentation"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:221
+#: ../libbladeui/xfce-dialogs.c:221
 msgid ""
 "You will be redirected to the documentation website where the help pages are "
 "maintained and translated."
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:225
+#: ../libbladeui/xfce-dialogs.c:225
 msgid "_Read Online"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:237
+#: ../libbladeui/xfce-dialogs.c:237
 msgid "_Always go directly to the online documentation"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:281
+#: ../libbladeui/xfce-dialogs.c:281
 #, fuzzy
 msgid "Information"
 msgstr "අනුවාද තොරතුරු"
 
-#: ../libxfce4ui/xfce-dialogs.c:314
+#: ../libbladeui/xfce-dialogs.c:314
 msgid "Warning"
 msgstr "අවවාදයයි"
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Error"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:399
+#: ../libbladeui/xfce-dialogs.c:399
 msgid "Question"
 msgstr ""
 
-#: ../libxfce4ui/xfce-sm-client.c:1403
+#: ../libbladeui/xfce-sm-client.c:1403
 #, fuzzy
 msgid "Session management client ID"
 msgstr "සැසි කළමනාකරන සොකට්ටුව"
 
-#: ../libxfce4ui/xfce-sm-client.c:1403
+#: ../libbladeui/xfce-sm-client.c:1403
 msgid "ID"
 msgstr "ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1404
+#: ../libbladeui/xfce-sm-client.c:1404
 #, fuzzy
 msgid "Disable session management"
 msgstr "සැසි කළමනාකරන සොකට්ටුව"
 
-#: ../libxfce4ui/xfce-sm-client.c:1414
+#: ../libbladeui/xfce-sm-client.c:1414
 #, fuzzy
 msgid "Session management options"
 msgstr "සැසි කළමනාකරන සොකට්ටුව"
 
-#: ../libxfce4ui/xfce-sm-client.c:1415
+#: ../libbladeui/xfce-sm-client.c:1415
 #, fuzzy
 msgid "Show session management options"
 msgstr "සැසි කළමනාකරන සොකට්ටුව"
 
-#: ../libxfce4ui/xfce-sm-client.c:1591
+#: ../libbladeui/xfce-sm-client.c:1591
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr ""
 
-#: ../libxfce4ui/xfce-sm-client.c:1598
+#: ../libbladeui/xfce-sm-client.c:1598
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr ""
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:413
+#: ../libbladeui/xfce-spawn.c:413
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning \"%s"
@@ -524,16 +524,16 @@ msgstr "අවසන් වැඩ අවකාශය මකා දමන්න"
 msgid "Delete active workspace"
 msgstr "සක්‍රීය වැඩ අවකාශය මකා දමන්න"
 
-#: ../glade/libxfce4ui.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1
 msgid "Titled Dialog"
 msgstr ""
 
-#: ../glade/libxfce4ui.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2
 #, fuzzy
 msgid "Subtitle"
 msgstr "සිරැසිය"
 
-#: ../glade/libxfce4ui.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3
 msgid "Xfce 4 Widgets"
 msgstr ""
 
@@ -552,7 +552,7 @@ msgid "Handles the placement of windows on the screen."
 msgstr "තිරයේ මැද (_c)"
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
+msgid "Bar"
 msgstr ""
 
 #: ../xfce4-about/main.c:75
@@ -670,7 +670,7 @@ msgstr ""
 
 #: ../xfce4-about/main.c:288
 msgid ""
-"The libxfce4ui, libxfcegui4, libxfce4util, thunar-vfs and exo packages are "
+"The libbladeui, libxfcegui4, libbladeutil, fmb-vfs and blxo packages are "
 "distributed under the terms of the GNU Library General Public License as "
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
@@ -678,8 +678,8 @@ msgstr ""
 
 #: ../xfce4-about/main.c:295
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-"
-"settings, xfce-utils, xfconf, xfdesktop and xfwm4 are distributed under the "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, xfce4-"
+"settings, xfce-utils, blconf, xfdesktop and xfwm4 are distributed under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."

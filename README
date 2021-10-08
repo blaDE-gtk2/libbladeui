@@ -1,7 +1,7 @@
 What is it?
 ===========
 
-This is libxfce4ui, the replacement of the old libxfcegui4 library. It is used
+This is libbladeui, the replacement of the old libxfcegui4 library. It is used
 to share commonly used Xfce widgets among the Xfce applications.
 
 
@@ -29,7 +29,7 @@ Libxfce4ui currently supports four different levels of debugging support, which
 can be setup using the configure flag `--enable-debug' (check the output of
 `configure --help'):
 
-  `full'	Use this if you want to debug libxfce4ui to locate a bug. The
+  `full'	Use this if you want to debug libbladeui to locate a bug. The
   		build will most probably be noticably slower. This is also
 		recommended for people that want to develop Xfce applications.
 

@@ -17,7 +17,7 @@
  */
 
 #include <gtk/gtk.h>
-#include <libxfce4util/libxfce4util.h>
+#include <libbladeutil/libbladeutil.h>
 
 typedef struct
 {

@@ -28,8 +28,8 @@
 - Add PrintScreen as shortcut for xfce4-screenshooter (Bug #14524)
 - Add Ctrl + Alt + t as default shortcut for terminal (Bug #14510)
 - Add xfce_gdk_screen_get_geometry (a replacement for gdk_screen_width/gdk_screen_height)
-- Remove useless glade_*dir variables from libxfce4ui-{1,2}.pc (Bug #13945)
-- Fix release tarball by adding libxfce4ui-dialog-ui.ui
+- Remove useless glade_*dir variables from libbladeui-{1,2}.pc (Bug #13945)
+- Fix release tarball by adding libbladeui-dialog-ui.ui
 - Fixes for gladeui2 detection
 - Install icons when gladeui2 is set (Bug #15207)
 - Fix build error with --disable-gtk2 and having gladeui-1.0 installed
@@ -60,8 +60,8 @@
 - Move gresource building out of maintainer mode
 - Fix condition in confirm dialog
 - Add POTFILES.skip to appease gmake distcheck gods on OpenBSD
-- ship libxfce4ui.gresource.xml in the tarball too
-- Add libxfce4ui-marshal.list to EXTRA_DIST to fix
+- ship libbladeui.gresource.xml in the tarball too
+- Add libbladeui-marshal.list to EXTRA_DIST to fix
   --enable-maintainer-mode on released tarballs
 - Fix build error with --disable-gtk2
 - Translation updates: bg, cs, fr, it, ca, hr, it, da, ru.
@@ -73,15 +73,15 @@
 - Set a reasonable default window width to make sure labels wrap
 - Improve vertical alignment of primary and secondary label
 - Bump the default dialog width to 500px
-- Update libxfce4ui documentation
+- Update libbladeui documentation
 - Fix make docs compilation warning
 - Fix xfce_dialog_show_help(_with_version) doc
 - Remove Makefile.am space to fix autogen.sh warning
 - Better documentation processing
 - Change xfce_dialog_show_help(_with_version)
 - Default debug to yes instead of full
-- Remove exo dependancy Bug #13326
-- fix: add libxfce4ui_get_resource to abi check symbols Bug #13326
+- Remove blxo dependancy Bug #13326
+- fix: add libbladeui_get_resource to abi check symbols Bug #13326
 - Let autotools find and invoke glib-compile-resources Bug #13326
 - Add support for GOBJECT-INTROSPECTION Bug #13461
 - Add GtkDoc checks
@@ -165,7 +165,7 @@
 
 4.11.0
 ======
-- Compile GTK+-3 version of libxfce4ui when possible.
+- Compile GTK+-3 version of libbladeui when possible.
 - Depend on GTK 2.24 and Glib 2.28.
 - Only define distclean files in maintainer mode (bug #8974).
 - Don't remove keyboard shortcut when entered twice (bug #8749).
@@ -174,7 +174,7 @@
 - Use <Primary> instead of <Control> (bug #8200).
 - Fix keyboard shortcuts with keypad (bug #4178).
 - Autotools updates.
-- Prefer exo-open for opening the manual pages.
+- Prefer blxo-open for opening the manual pages.
 - Add error domain for XfceSmClient.
 - Translation updates: Amharic, Arabic, Asturian, Bulgarian, Bengali,
   Catalan (Valencian), Czech, Danish, German, Greek, English (United
@@ -221,7 +221,7 @@
 - Add Alt + F1 as a shortcut for applications menu.
 - Remove unused code from the internal header widget.
 - Add xfce4-about from xfce-utils package.
-- Use xdt-csource instead of exo-csource, depend on xdt 4.9.0.
+- Use xdt-csource instead of blxo-csource, depend on xdt 4.9.0.
 - Update to new xfce4-appfinder commands.
 - Fix build against 3.9 Glade (bug #7334).
 - Add shortcuts for XF86WWW and XF86Mail.

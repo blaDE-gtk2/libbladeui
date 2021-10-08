@@ -28,9 +28,9 @@
 
 #include <gtk/gtk.h>
 
-#include <libxfce4util/libxfce4util.h>
-#include <libxfce4ui/libxfce4ui.h>
-#include <xfconf/xfconf.h>
+#include <libbladeutil/libbladeutil.h>
+#include <libbladeui/libbladeui.h>
+#include <blconf/blconf.h>
 
 #include <libxfce4kbd-private/xfce-shortcuts.h>
 #include <libxfce4kbd-private/xfce-shortcuts-xfwm4.h>
@@ -92,7 +92,7 @@ xfce_shortcut_conflict_dialog (GtkWindow   *parent,
   response = GTK_RESPONSE_ACCEPT;
   handled = FALSE;
 
-  /* Make sure to use the translations from libxfce4ui */
+  /* Make sure to use the translations from libbladeui */
   xfce_textdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
 
   if (g_utf8_collate (owner, other) == 0 && ignore_same_provider)

@@ -17,85 +17,85 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: ../libxfce4ui/xfce-dialogs.c:98
+#: ../libbladeui/xfce-dialogs.c:98
 msgid "Failed to open web browser for online documentation"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:213
+#: ../libbladeui/xfce-dialogs.c:213
 #, c-format
 msgid "Do you want to read the %s manual online?"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:215
+#: ../libbladeui/xfce-dialogs.c:215
 msgid "Do you want to read the manual online?"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:218
+#: ../libbladeui/xfce-dialogs.c:218
 msgid "Online Documentation"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:221
+#: ../libbladeui/xfce-dialogs.c:221
 msgid ""
 "You will be redirected to the documentation website where the help pages are "
 "maintained and translated."
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:225
+#: ../libbladeui/xfce-dialogs.c:225
 msgid "_Read Online"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:237
+#: ../libbladeui/xfce-dialogs.c:237
 msgid "_Always go directly to the online documentation"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:281
+#: ../libbladeui/xfce-dialogs.c:281
 msgid "Information"
 msgstr "ਜਾਣਕਾਰੀ"
 
-#: ../libxfce4ui/xfce-dialogs.c:314
+#: ../libbladeui/xfce-dialogs.c:314
 msgid "Warning"
 msgstr ""
 
-#: ../libxfce4ui/xfce-dialogs.c:348
+#: ../libbladeui/xfce-dialogs.c:348
 msgid "Error"
 msgstr "ਗਲਤੀ"
 
-#: ../libxfce4ui/xfce-dialogs.c:399
+#: ../libbladeui/xfce-dialogs.c:399
 msgid "Question"
 msgstr "ਸਵਾਲ"
 
-#: ../libxfce4ui/xfce-sm-client.c:1403
+#: ../libbladeui/xfce-sm-client.c:1403
 msgid "Session management client ID"
 msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧ ਕਲਾਇਟ ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1403
+#: ../libbladeui/xfce-sm-client.c:1403
 msgid "ID"
 msgstr "ID"
 
-#: ../libxfce4ui/xfce-sm-client.c:1404
+#: ../libbladeui/xfce-sm-client.c:1404
 msgid "Disable session management"
 msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧ ਆਯੋਗ"
 
-#: ../libxfce4ui/xfce-sm-client.c:1414
+#: ../libbladeui/xfce-sm-client.c:1414
 msgid "Session management options"
 msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧ ਚੋਣਾਂ"
 
-#: ../libxfce4ui/xfce-sm-client.c:1415
+#: ../libbladeui/xfce-sm-client.c:1415
 msgid "Show session management options"
 msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧ ਚੋਣਾਂ ਵੇਖੋ"
 
-#: ../libxfce4ui/xfce-sm-client.c:1591
+#: ../libbladeui/xfce-sm-client.c:1591
 #, c-format
 msgid "Failed to connect to the session manager: %s"
 msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਨਾਲ ਕੁਨੈਕਟ ਹੋਣ ਲਈ ਫੇਲ੍ਹ: %s"
 
-#: ../libxfce4ui/xfce-sm-client.c:1598
+#: ../libbladeui/xfce-sm-client.c:1598
 #, c-format
 msgid "Session manager did not return a valid client id"
 msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਨੇ ਢੁੱਕਵਾਂ ਕਲਾਇਟ id ਨਹੀਂ ਦਿੱਤਾ"
 
 #. print warning for user
-#: ../libxfce4ui/xfce-spawn.c:413
+#: ../libbladeui/xfce-spawn.c:413
 #, c-format
 msgid ""
 "Working directory \"%s\" does not exist. It won't be used when spawning \"%s"
@@ -546,17 +546,17 @@ msgstr "ਵਰਕਸਪੇਸ ਹਟਾਓ"
 msgid "Delete active workspace"
 msgstr "ਵਰਕਸਪੇਸ ਹਟਾਓ"
 
-#: ../glade/libxfce4ui.xml.in.h:1
+#: ../glade/libbladeui.xml.in.h:1
 #, fuzzy
 msgid "Titled Dialog"
 msgstr "ਸਿਰਲੇਖ ਫੋਂਟ"
 
-#: ../glade/libxfce4ui.xml.in.h:2
+#: ../glade/libbladeui.xml.in.h:2
 #, fuzzy
 msgid "Subtitle"
 msgstr "ਸਿਰਲੇਖ"
 
-#: ../glade/libxfce4ui.xml.in.h:3
+#: ../glade/libbladeui.xml.in.h:3
 #, fuzzy
 msgid "Xfce 4 Widgets"
 msgstr "Xfce 4 ਵਿੰਡੋ ਮੈਨੇਜਰ ਸੈਟਿੰਗ"
@@ -575,7 +575,7 @@ msgid "Handles the placement of windows on the screen."
 msgstr "ਮੁੜ ਆਕਾਰ ਦੇਣ ਉਪਰੰਤ ਝਰੋਖੇ ਦੇ ਸੰਖੇਪ ਵਿਖਾਓ"
 
 #: ../xfce4-about/main.c:74
-msgid "Panel"
+msgid "Bar"
 msgstr ""
 
 #: ../xfce4-about/main.c:75
@@ -692,7 +692,7 @@ msgstr ""
 
 #: ../xfce4-about/main.c:288
 msgid ""
-"The libxfce4ui, libxfcegui4, libxfce4util, thunar-vfs and exo packages are "
+"The libbladeui, libxfcegui4, libbladeutil, fmb-vfs and blxo packages are "
 "distributed under the terms of the GNU Library General Public License as "
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
@@ -700,8 +700,8 @@ msgstr ""
 
 #: ../xfce4-about/main.c:295
 msgid ""
-"The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-"
-"settings, xfce-utils, xfconf, xfdesktop and xfwm4 are distributed under the "
+"The packages fmb, xfce4-appfinder, blade-bar, xfce4-session, xfce4-"
+"settings, xfce-utils, blconf, xfdesktop and xfwm4 are distributed under the "
 "terms of the GNU General Public License as published by the Free Software "
 "Foundation; either version 2 of the License, or (at your option) any later "
 "version."
